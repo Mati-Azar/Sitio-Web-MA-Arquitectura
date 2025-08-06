@@ -1,13 +1,36 @@
-
 /*-----------------------------------------------------Pages Proyectos-------------------------------------------------------*/
 
 .h2-pages-proyectos {
   margin-left: 20px;
 }
 
-/*--Pages Proyectos-----Pantallas EXTRA PEQUEÑAS (TELEFONOS EN VERTICAL <576 px---*/
+/*------------------Aplicacion de @Mixin----------------*/
 
-/*--------Aplicacion de @EXTEND--------------*/
+@mixin arquitectura-base-flex($margin, $padding, $font-size, $bg-color) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: $margin;
+  padding: $padding;
+  font-size: $font-size;
+  background-color: $bg-color;
+}
+
+@mixin arquitectura-base-grid($margin, $padding, $font-size, $bg-color) {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "parrafo parrafo"
+    "imgcasa1 imgcasa2";
+  align-items: center;
+  margin: $margin;
+  padding: $padding;
+  font-size: $font-size;
+  background-color: $bg-color;
+}
+
+/*--Pages Proyectos-----Pantallas EXTRA PEQUEÑAS (TELEFONOS EN VERTICAL <576 px---*/
 
 @media (max-width: 575.98px) {
   .h1-pages-proyectos {
@@ -17,14 +40,8 @@
     font-size: 20px;
   }
 
-  .arquitectura-residencial-container {    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 15px;
-    padding: 15px;
-    font-size: 16px;
-    background-color: rgb(230, 231, 232);
+  .arquitectura-residencial-container {
+    @include arquitectura-base-flex(15px, 15px, 16px, rgb(230, 231, 232));
   }
 
   .arquitectura-residencial__imgcasa1 {
@@ -40,14 +57,8 @@
     border: 2px solid black;
   }
 
-  .arquitectura-urbana-container {    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 15px;
-    padding: 15px;
-    font-size: 16px;
-    background-color: rgb(169, 171, 174);
+  .arquitectura-urbana-container {
+    @include arquitectura-base-flex(15px, 15px, 16px, rgb(169, 171, 174));
   }
 
   .arquitectura-urbana__imgparque {
@@ -57,13 +68,7 @@
   }
 
   .arquitectura-sustentable-container {
-    background-color: rgb(136, 159, 172);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 15px;
-    padding: 15px;
-    font-size: 16px;
+    @include arquitectura-base-flex(15px, 15px, 16px, rgb(136, 159, 172));
   }
 
   .arquitectura-sustentable__imgplanimetria {
@@ -97,13 +102,7 @@
     font-size: 25px;
   }
   .arquitectura-residencial-container {
-    background-color: rgb(230, 231, 232);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
-    padding: 20px;
-    font-size: 17px;
+    @include arquitectura-base-flex(20px, 20px, 17px, rgb(230, 231, 232));
   }
 
   .arquitectura-residencial__imgcasa1 {
@@ -120,13 +119,7 @@
   }
 
   .arquitectura-urbana-container {
-    background-color: rgb(169, 171, 174);    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
-    padding: 20px;
-    font-size: 17px;
+    @include arquitectura-base-flex(20px, 20px, 17px, rgb(169, 171, 174));
   }
 
   .arquitectura-urbana__imgparque {
@@ -136,13 +129,7 @@
   }
 
   .arquitectura-sustentable-container {
-    background-color: rgb(136, 159, 172);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    margin: 20px;
-    font-size: 17px;
+    @include arquitectura-base-flex(20px, 20px, 17px, rgb(136, 159, 172));
   }
 
   .arquitectura-sustentable__imgplanimetria {
@@ -170,16 +157,7 @@
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   .arquitectura-residencial-container {
-    background-color: rgb(230, 231, 232);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
-    grid-template-areas:
-      "parrafo parrafo"
-      "imgcasa1 imgcasa2";
-    margin: 20px;
-    padding: 30px;
-    font-size: 18px;
+    @include arquitectura-base-grid(20px, 30px, 18px, rgb(230, 231, 232));
   }
 
   .arquitectura-residencial__parrafo {
@@ -205,12 +183,7 @@
   }
 
   .arquitectura-urbana-container {
-    background-color: rgb(169, 171, 174);
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 18px;
+    @include arquitectura-base-flex(20px, 0, 18px, rgb(169, 171, 174));
   }
 
   .arquitectura-urbana__parrafo {
@@ -225,17 +198,10 @@
   }
 
   .arquitectura-sustentable-container {
-    background-color: rgb(136, 159, 172);
-    margin: 20px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
+    @include arquitectura-base-grid(20px, 30px, 18px, rgb(136, 159, 172));
     grid-template-areas:
       "parrafo parrafo"
       "imgparque imgplano";
-    align-items: center;
-    padding: 30px;
-    font-size: 18px;
   }
 
   .arquitectura-sustentable__parrafo {
@@ -270,15 +236,7 @@
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .arquitectura-residencial-container {
-    background-color: rgb(230, 231, 232);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
-    grid-template-areas:
-      "parrafo parrafo"
-      "imgcasa1 imgcasa2";
-    margin: 20px;
-    padding: 30px;
+    @include arquitectura-base-grid(20px, 30px, 20px, rgb(230, 231, 232));
   }
 
   .arquitectura-residencial__parrafo {
@@ -304,11 +262,7 @@
   }
 
   .arquitectura-urbana-container {
-    background-color: rgb(169, 171, 174);
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include arquitectura-base-flex(20px, 0, 20px, rgb(169, 171, 174));
   }
 
   .arquitectura-urbana__parrafo {
@@ -323,16 +277,10 @@
   }
 
   .arquitectura-sustentable-container {
-    background-color: rgb(136, 159, 172);
-    margin: 20px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
+    @include arquitectura-base-grid(20px, 30px, 20px, rgb(136, 159, 172));
     grid-template-areas:
       "parrafo parrafo"
       "imgparque imgplano";
-    align-items: center;
-    padding: 30px;
   }
 
   .arquitectura-sustentable__parrafo {
@@ -367,15 +315,7 @@
 
 @media (min-width: 1200px) and (max-width: 1399.98px) {
   .arquitectura-residencial-container {
-    background-color: rgb(230, 231, 232);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
-    grid-template-areas:
-      "parrafo parrafo"
-      "imgcasa1 imgcasa2";
-    margin: 20px;
-    padding: 30px;
+    @include arquitectura-base-grid(20px, 30px, 20px, rgb(230, 231, 232));
   }
 
   .arquitectura-residencial__parrafo {
@@ -401,11 +341,7 @@
   }
 
   .arquitectura-urbana-container {
-    background-color: rgb(169, 171, 174);
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include arquitectura-base-flex(20px, 0, 20px, rgb(169, 171, 174));
   }
 
   .arquitectura-urbana__parrafo {
@@ -420,16 +356,10 @@
   }
 
   .arquitectura-sustentable-container {
-    background-color: rgb(136, 159, 172);
-    margin: 20px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
+    @include arquitectura-base-grid(20px, 30px, 20px, rgb(136, 159, 172));
     grid-template-areas:
       "parrafo parrafo"
       "imgparque imgplano";
-    align-items: center;
-    padding: 30px;
   }
 
   .arquitectura-sustentable__parrafo {
@@ -460,15 +390,7 @@
 
 @media (min-width: 1400px) {
   .arquitectura-residencial-container {
-    background-color: rgb(230, 231, 232);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
-    grid-template-areas:
-      "parrafo parrafo"
-      "imgcasa1 imgcasa2";
-    margin: 20px;
-    padding: 30px;
+    @include arquitectura-base-grid(20px, 30px, 20px, rgb(230, 231, 232));
   }
 
   .arquitectura-residencial__parrafo {
@@ -494,11 +416,7 @@
   }
 
   .arquitectura-urbana-container {
-    background-color: rgb(169, 171, 174);
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include arquitectura-base-flex(20px, 0, 20px, rgb(169, 171, 174));
   }
 
   .arquitectura-urbana__parrafo {
@@ -513,16 +431,10 @@
   }
 
   .arquitectura-sustentable-container {
-    background-color: rgb(136, 159, 172);
-    margin: 20px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
+    @include arquitectura-base-grid(20px, 30px, 20px, rgb(136, 159, 172));
     grid-template-areas:
       "parrafo parrafo"
       "imgparque imgplano";
-    align-items: center;
-    padding: 30px;
   }
 
   .arquitectura-sustentable__parrafo {
