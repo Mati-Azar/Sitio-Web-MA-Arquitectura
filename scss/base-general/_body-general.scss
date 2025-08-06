@@ -6,20 +6,29 @@
 
 /*------------------------------------------------------Body General---------------------------------------------------- */
 
+/*------------------------------------------------Uso de Nesting, Extend y Variable-------------------------------------- */
+
+$fondo-gris:rgb(210, 211, 213);
+
 body {
   color: black;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 20px;
   text-align: justify;
+  h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  h2 {
+    @extend h1;
+  }
+  h3 {
+    @extend h1;
+  }
 }
 
 .body-gray {
-  background-color: rgb(210, 211, 213);
-}
-
-h1 {
-  text-transform: uppercase;
-  font-weight: bold;
+  background-color:$fondo-gris;
 }
 
 .h1-general {
@@ -27,15 +36,6 @@ h1 {
   border-bottom: 7px solid black;
 }
 
-h2 {
-  text-transform: uppercase;
-  font-family: bold;
-}
-
 .h2-sub {
   text-decoration: underline;
-}
-
-h3 {
-  text-transform: uppercase;
 }
