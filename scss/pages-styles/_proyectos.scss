@@ -1,0 +1,547 @@
+/*-----------------------------------------------------Pages Proyectos-------------------------------------------------------*/
+
+.h2-pages-proyectos {
+  margin-left: 20px;
+}
+
+/*--Pages Proyectos-----Pantallas EXTRA PEQUEÑAS (TELEFONOS EN VERTICAL <576 px---*/
+
+@media (max-width: 575.98px) {
+  .h1-pages-proyectos {
+    font-size: 24px;
+  }
+  .h2-pages-proyectos {
+    font-size: 20px;
+  }
+
+  .arquitectura-residencial-container {
+    background-color: rgb(230, 231, 232);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  .arquitectura-residencial__imgcasa1 {
+    width: 90%;
+    height: auto;
+    border: 2px solid black;
+  }
+
+  .arquitectura-residencial__imgcasa2 {
+    width: 90%;
+    height: auto;
+    margin-top: 15px;
+    border: 2px solid black;
+  }
+
+  .arquitectura-urbana-container {
+    background-color: rgb(169, 171, 174);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  .arquitectura-urbana__imgparque {
+    width: 95%;
+    height: 40%;
+    border: 2px solid black;
+  }
+
+  .arquitectura-sustentable-container {
+    background-color: rgb(136, 159, 172);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  .arquitectura-sustentable__imgplanimetria {
+    width: 90%;
+    height: auto;
+    border: 2px solid black;
+  }
+  .arquitectura-sustentable__imgparque {
+    width: 90%;
+    height: auto;
+    margin-top: 15px;
+    border: 2px solid black;
+  }
+
+  .buttom {
+    width: 30px;
+    height: auto;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+/*--Pages Proyectos-----Pantallas PEQUEÑAS (TELEFONOS GRANDES ≥577 px----*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .h1-pages-proyectos {
+    font-size: 30px;
+  }
+  .h2-pages-proyectos {
+    font-size: 25px;
+  }
+  .arquitectura-residencial-container {
+    background-color: rgb(230, 231, 232);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    font-size: 17px;
+  }
+
+  .arquitectura-residencial__imgcasa1 {
+    width: 90%;
+    height: auto;
+    border: 2px solid black;
+  }
+
+  .arquitectura-residencial__imgcasa2 {
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
+    border: 2px solid black;
+  }
+
+  .arquitectura-urbana-container {
+    background-color: rgb(169, 171, 174);
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 17px;
+  }
+
+  .arquitectura-urbana__imgparque {
+    width: 95%;
+    height: 40%;
+    border: 2px solid black;
+  }
+
+  .arquitectura-sustentable-container {
+    background-color: rgb(136, 159, 172);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    font-size: 17px;
+  }
+
+  .arquitectura-sustentable__imgplanimetria {
+    width: 90%;
+    height: auto;
+    border: 2px solid black;
+  }
+  .arquitectura-sustentable__imgparque {
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
+    border: 2px solid black;
+  }
+
+  .buttom {
+    width: 30px;
+    height: auto;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+/*--Pages Proyectos-----Pantallas MEDIANAS (TABLETS ≥768 px----*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .arquitectura-residencial-container {
+    background-color: rgb(230, 231, 232);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "parrafo parrafo"
+      "imgcasa1 imgcasa2";
+    margin: 20px;
+    padding: 30px;
+    font-size: 18px;
+  }
+
+  .arquitectura-residencial__parrafo {
+    padding-top: 0px;
+    padding-right: 30px;
+    grid-area: parrafo;
+  }
+
+  .arquitectura-residencial__imgcasa1 {
+    width: 90%;
+    height: auto;
+    grid-area: imgcasa1;
+    margin: auto;
+    border: 2px solid black;
+  }
+
+  .arquitectura-residencial__imgcasa2 {
+    width: 90%;
+    height: auto;
+    grid-area: imgcasa2;
+    margin: auto;
+    border: 2px solid black;
+  }
+
+  .arquitectura-urbana-container {
+    background-color: rgb(169, 171, 174);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+  }
+
+  .arquitectura-urbana__parrafo {
+    padding: 30px 30px 0 30px;
+  }
+
+  .arquitectura-urbana__imgparque {
+    width: 95%;
+    height: 40%;
+    margin-bottom: 30px;
+    border: 2px solid black;
+  }
+
+  .arquitectura-sustentable-container {
+    background-color: rgb(136, 159, 172);
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "parrafo parrafo"
+      "imgparque imgplano";
+    align-items: center;
+    padding: 30px;
+    font-size: 18px;
+  }
+
+  .arquitectura-sustentable__parrafo {
+    grid-area: parrafo;
+  }
+
+  .arquitectura-sustentable__imgplanimetria {
+    grid-area: imgplano;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border: 2px solid black;
+  }
+  .arquitectura-sustentable__imgparque {
+    grid-area: imgparque;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border: 2px solid black;
+  }
+
+  .buttom {
+    width: 35px;
+    height: auto;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+/*--Pages Proyectos-----Pantallas GRANDES (DESKTOPS ≥992 px------*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .arquitectura-residencial-container {
+    background-color: rgb(230, 231, 232);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "parrafo parrafo"
+      "imgcasa1 imgcasa2";
+    margin: 20px;
+    padding: 30px;
+  }
+
+  .arquitectura-residencial__parrafo {
+    padding-top: 0px;
+    padding-right: 30px;
+    grid-area: parrafo;
+  }
+
+  .arquitectura-residencial__imgcasa1 {
+    width: 90%;
+    height: auto;
+    grid-area: imgcasa1;
+    margin: auto;
+    border: 2px solid black;
+  }
+
+  .arquitectura-residencial__imgcasa2 {
+    width: 90%;
+    height: auto;
+    grid-area: imgcasa2;
+    margin: auto;
+    border: 2px solid black;
+  }
+
+  .arquitectura-urbana-container {
+    background-color: rgb(169, 171, 174);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .arquitectura-urbana__parrafo {
+    padding: 30px 30px 0 30px;
+  }
+
+  .arquitectura-urbana__imgparque {
+    width: 95%;
+    height: 40%;
+    margin-bottom: 30px;
+    border: 2px solid black;
+  }
+
+  .arquitectura-sustentable-container {
+    background-color: rgb(136, 159, 172);
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "parrafo parrafo"
+      "imgparque imgplano";
+    align-items: center;
+    padding: 30px;
+  }
+
+  .arquitectura-sustentable__parrafo {
+    grid-area: parrafo;
+  }
+
+  .arquitectura-sustentable__imgplanimetria {
+    grid-area: imgplano;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border: 2px solid black;
+  }
+  .arquitectura-sustentable__imgparque {
+    grid-area: imgparque;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border: 2px solid black;
+  }
+
+  .buttom {
+    width: 35px;
+    height: auto;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+/*--Pages Proyectos-----Pantallas EXTRA GRANDES (GRANDES PANTALLAS ≥1200 px-----*/
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .arquitectura-residencial-container {
+    background-color: rgb(230, 231, 232);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "parrafo parrafo"
+      "imgcasa1 imgcasa2";
+    margin: 20px;
+    padding: 30px;
+  }
+
+  .arquitectura-residencial__parrafo {
+    padding-top: 0px;
+    padding-right: 30px;
+    grid-area: parrafo;
+  }
+
+  .arquitectura-residencial__imgcasa1 {
+    width: 90%;
+    height: auto;
+    grid-area: imgcasa1;
+    margin: auto;
+    border: 2px solid black;
+  }
+
+  .arquitectura-residencial__imgcasa2 {
+    width: 90%;
+    height: auto;
+    grid-area: imgcasa2;
+    margin: auto;
+    border: 2px solid black;
+  }
+
+  .arquitectura-urbana-container {
+    background-color: rgb(169, 171, 174);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .arquitectura-urbana__parrafo {
+    padding: 30px 30px 0 30px;
+  }
+
+  .arquitectura-urbana__imgparque {
+    width: 95%;
+    height: 40%;
+    margin-bottom: 30px;
+    border: 2px solid black;
+  }
+
+  .arquitectura-sustentable-container {
+    background-color: rgb(136, 159, 172);
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "parrafo parrafo"
+      "imgparque imgplano";
+    align-items: center;
+    padding: 30px;
+  }
+
+  .arquitectura-sustentable__parrafo {
+    grid-area: parrafo;
+  }
+
+  .arquitectura-sustentable__imgplanimetria {
+    grid-area: imgplano;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border: 2px solid black;
+  }
+  .arquitectura-sustentable__imgparque {
+    grid-area: imgparque;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border: 2px solid black;
+  }
+
+  .buttom {
+    display: none;
+  }
+}
+
+/*--Pages Proyectos-----Pantallas ULTRA GRANDES (MUY ANCHAS ≥1400 px) ------*/
+
+@media (min-width: 1400px) {
+  .arquitectura-residencial-container {
+    background-color: rgb(230, 231, 232);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "parrafo parrafo"
+      "imgcasa1 imgcasa2";
+    margin: 20px;
+    padding: 30px;
+  }
+
+  .arquitectura-residencial__parrafo {
+    padding-top: 0px;
+    padding-right: 30px;
+    grid-area: parrafo;
+  }
+
+  .arquitectura-residencial__imgcasa1 {
+    width: 90%;
+    height: auto;
+    grid-area: imgcasa1;
+    margin: auto;
+    border: 2px solid black;
+  }
+
+  .arquitectura-residencial__imgcasa2 {
+    width: 90%;
+    height: auto;
+    grid-area: imgcasa2;
+    margin: auto;
+    border: 2px solid black;
+  }
+
+  .arquitectura-urbana-container {
+    background-color: rgb(169, 171, 174);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .arquitectura-urbana__parrafo {
+    padding: 30px 30px 0 30px;
+  }
+
+  .arquitectura-urbana__imgparque {
+    width: 95%;
+    height: 40%;
+    margin-bottom: 30px;
+    border: 2px solid black;
+  }
+
+  .arquitectura-sustentable-container {
+    background-color: rgb(136, 159, 172);
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "parrafo parrafo"
+      "imgparque imgplano";
+    align-items: center;
+    padding: 30px;
+  }
+
+  .arquitectura-sustentable__parrafo {
+    grid-area: parrafo;
+  }
+
+  .arquitectura-sustentable__imgplanimetria {
+    grid-area: imgplano;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border: 2px solid black;
+  }
+  .arquitectura-sustentable__imgparque {
+    grid-area: imgparque;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border: 2px solid black;
+  }
+
+  .buttom {
+    display: none;
+  }
+}

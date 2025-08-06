@@ -1,0 +1,95 @@
+/*---------------------------------------------------------Pages Inicio --------------------------------------------------------*/
+
+.body-pages-index {
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+}
+
+.main-index {
+  margin-bottom: auto;
+}
+
+/*--Pages Inicio-----Pantallas EXTRA PEQUEÑAS (TELEFONOS EN VERTICAL <576 px----*/
+
+@media (max-width: 575.98px) {
+  .main-index {
+    font-size: 16px;
+    text-align: start;
+  }
+
+  .pages-inicio-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .h1-pages-inicio {
+    font-size: 24px;
+  }
+
+  .h2-pages-inicio {
+    font-size: 20px;
+    margin: 20px;
+  }
+  .pages-inicio-parrafo {
+    padding: 0 20px 0 20px;
+  }
+}
+
+/*--Pages Inicio-----Pantallas PEQUEÑAS A MEDIANAS (TELEFONOS GRANDES Y TABLETS ≥768 px------*/
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .main-index {
+    font-size: 17px;
+    text-align: start;
+  }
+
+  .pages-inicio-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .h1-pages-inicio {
+    font-size: 30px;
+  }
+
+  .h2-pages-inicio {
+    font-size: 25px;
+    margin-left: 20px;
+  }
+  .pages-inicio-parrafo {
+    padding: 0 20px 0 20px;
+  }
+}
+
+/*--Pages Inicio-----Pantallas GRANDES A EXTRA GRANDES (GRANDES PANTALLAS ≥992 px a <1200 px---*/
+
+@media (min-width: 992px) and (max-width: 1399.98px) {
+  .pages-inicio-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .h2-pages-inicio {
+    margin-left: 20px;
+  }
+  .pages-inicio-parrafo {
+    padding: 0 20px 0 20px;
+  }
+}
+
+/*--Pages Inicio-----Pantallas ULTRA GRANDES (MUY ANCHAS ≥1400 px) ----*/
+
+@media (min-width: 1400px) {
+  .pages-inicio-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .h2-pages-inicio {
+    margin-left: 20px;
+  }
+  .pages-inicio-parrafo {
+    padding: 0 20px 0 20px;
+  }
+}

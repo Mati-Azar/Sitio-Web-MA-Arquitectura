@@ -1,0 +1,160 @@
+/*------------------------------------------------------------ Pages Contactos--------------------------------------------------------- */
+
+.body-pages-contacto {
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+}
+
+.main-container-pagescontacto {
+  margin-bottom: auto;
+}
+
+/*--Pages Contactos-----Pantallas EXTRA PEQUEÑAS (TELEFONOS EN VERTICAL <576 px---------*/
+
+@media (max-width: 575.98px) {
+  .h1-pages-contacto {
+    font-size: 25px;
+  }
+  .h2-pages-contacto {
+    font-size: 20px;
+  }
+  .h3-pages-contacto {
+    font-size: 17px;
+  }
+
+  .main-container-pagescontacto {
+    font-size: 16px;
+    text-align: start;
+  }
+
+  .main-container-pagescontacto h2,
+  h3 {
+    margin: 15px;
+  }
+
+  .ul-container-pagescontacto {
+    margin: 10px 30px 0 40px;
+  }
+
+  .parrafo-pagescontacto {
+    margin: 30px 30px 0 60px;
+  }
+
+  .formulario-container-pagescontacto {
+    margin: 10px 30px 20px 60px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  }
+}
+
+/*--Pages Contactos-----Pantallas PEQUEÑAS (TELEFONOS GRANDES ≥577 px-------*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .h1-pages-contacto {
+    font-size: 30px;
+  }
+  .h2-pages-contacto {
+    font-size: 24px;
+  }
+  .h3-pages-contacto {
+    font-size: 20px;
+  }
+
+  .main-container-pagescontacto {
+    font-size: 16px;
+    text-align: start;
+  }
+
+  .main-container-pagescontacto h2,
+  h3 {
+    margin: 30px;
+  }
+
+  .ul-container-pagescontacto {
+    margin: 10px 30px 0 50px;
+  }
+
+  .parrafo-pagescontacto {
+    margin: 30px 30px 0 60px;
+  }
+
+  .formulario-container-pagescontacto {
+    margin: 10px 30px 0 60px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  }
+}
+
+/*--Pages Contactos-----Pantallas MEDIANAS (TABLETS ≥768 px--------------*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .main-container-pagescontacto {
+    font-size: 17px;
+    text-align: start;
+  }
+
+  .main-container-pagescontacto h2,
+  h3 {
+    margin: 30px;
+  }
+
+  .ul-container-pagescontacto {
+    margin: 10px 30px 0 50px;
+  }
+
+  .parrafo-pagescontacto {
+    margin: 30px 30px 0 60px;
+  }
+
+  .formulario-container-pagescontacto {
+    margin: 10px 30px 0 60px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  }
+}
+
+/*--Pages Contactos-----Pantallas GRANDES y EXTRA GRANDES (DESKTOPS ≥992 px Y ≥1200 px---------*/
+
+@media (min-width: 992px) and (max-width: 1399.98px) {
+  .main-container-pagescontacto h2,
+  h3 {
+    margin: 30px;
+  }
+
+  .ul-container-pagescontacto {
+    margin: 10px 0 0 50px;
+  }
+
+  .parrafo-pagescontacto {
+    margin: 30px 0 0 60px;
+  }
+
+  .formulario-container-pagescontacto {
+    margin: 10px 0 0 60px;
+  }
+}
+
+/*--Pages Contactos-----Pantallas ULTRA GRANDES (MUY ANCHAS ≥1400 px) --------*/
+
+@media (min-width: 1400px) {
+  .main-container-pagescontacto h2,
+  h3 {
+    margin: 30px;
+  }
+
+  .ul-container-pagescontacto {
+    margin: 10px 0 0 50px;
+  }
+
+  .parrafo-pagescontacto {
+    margin: 30px 0 0 60px;
+  }
+
+  .formulario-container-pagescontacto {
+    margin: 10px 0 0 60px;
+  }
+}

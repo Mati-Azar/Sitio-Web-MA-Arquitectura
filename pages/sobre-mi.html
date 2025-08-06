@@ -3,123 +3,202 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="../css/style.css" />
     <title>Sobre mi</title>
   </head>
+
   <body class="body-gray">
     <header>
-      <img src="../images/logo-1.png" alt="Logo MA-Arquitectura" />
-      <p>Espacios pensados para durar</p>
-      <nav>
-        <ul>
-          <li><a class="menu-header" href="../index.html">Inicio</a></li>
-          <li><a class="menu-header" href="proyectos.html">Proyectos</a></li>
-          <li><a class="menu-header" href="servicios.html">Servicios</a></li>
-          <li><a class="menu-header" href="contactos.html">Contacto</a></li>
-        </ul>
+      <img
+        class="img-header"
+        src="../images/logo-1.png"
+        alt="Logo MA-Arquitectura"
+      />
+      <p class="parrafo-menu"><br />Espacios<br />pensados para<br />durar</p>
+      <nav class="navbar navbar-expand-lg nav-container">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler boton-background"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto ul-nav-container">
+              <li class="nav-item">
+                <a class="nav-link enlaces-header" href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link enlaces-header enlace-header-sobremi"
+                  href="sobre-mi.html"
+                  >Sobre mi</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link enlaces-header" href="proyectos.html"
+                  >Proyectos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link enlaces-header" href="servicios.html"
+                  >Servicios</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link enlaces-header" href="contactos.html"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
 
     <main>
-      <h1 class="line-sub">Sobre mi</h1>
+      <h1 id="inicio-pagina" class="h1-pages-sobremi h1-general">Sobre mi</h1>
+      <div class="div-container-sobremi">
+        <img
+          class="mi-foto"
+          src="../images/foto-mia.jpg"
+          alt="Imagen del arquitecto Matias Azar"
+        />
 
-      <h2 class="h2-sub">Mi Historia</h2>
-      <p>
-        <b>MA Arquitectura</b> nace del compromiso por crear espacios que no
-        solo cumplan una función, sino que generen experiencias. Fundado por el
-        arquitecto <b>Matías Azar</b>, el estudio se formó a partir de la
-        búsqueda constante de diseño de calidad, eficiencia técnica y conexión
-        con las personas que habitan cada proyecto.Desde sus inicios, el estudio
-        ha desarrollado obras residenciales, comerciales y urbanas con un
-        enfoque centrado en la funcionalidad, la estética y la sustentabilidad.
-        Nos movemos entre la escala del detalle y la del territorio, con la
-        misma atención y compromiso.
-      </p>
+        <div class="mi-historia">
+          <h2 class="h2-pages-sobremi h2-sub">Mi Historia</h2>
+          <p>
+            <b>MA Arquitectura</b> nace del compromiso por crear espacios que no
+            solo cumplan una función, sino que generen experiencias. Fundado por
+            el arquitecto <b>Matías Azar</b>, el estudio se formó a partir de la
+            búsqueda constante de diseño de calidad, eficiencia técnica y
+            conexión con las personas que habitan cada proyecto.Desde sus
+            inicios, el estudio ha desarrollado obras residenciales, comerciales
+            y urbanas con un enfoque centrado en la funcionalidad, la estética y
+            la sustentabilidad. Nos movemos entre la escala del detalle y la del
+            territorio, con la misma atención y compromiso.
+          </p>
+        </div>
 
-      <h2 class="h2-sub">Mi Vision</h2>
-      <p>
-        Crear arquitectura que mejore la vida de las personas. Entendemos cada
-        proyecto como una oportunidad para resolver necesidades reales con
-        soluciones claras, honestas y bien construidas. En MA Arquitectura
-        creemos que la arquitectura tiene el poder de transformar la vida
-        cotidiana de las personas. Nuestra visión es proyectar espacios que
-        trasciendan lo estético y se conviertan en soluciones habitables,
-        eficientes y emocionalmente significativas. Aspiramos a consolidarnos
-        como un estudio de referencia, no por la magnitud de nuestras obras,
-        sino por la calidad con la que resolvemos cada desafío. Nos mueve el
-        compromiso con el entorno, la innovación técnica, y el diálogo fluido
-        con cada cliente para que el resultado final no solo sea funcional, sino
-        también profundamente humano.
-      </p>
+        <div class="mi-vision">
+          <h2 class="h2-pages-sobremi h2-sub">Mi Vision</h2>
+          <p>
+            Crear arquitectura que mejore la vida de las personas. Entendemos
+            cada proyecto como una oportunidad para resolver necesidades reales
+            con soluciones claras, honestas y bien construidas. En MA
+            Arquitectura creemos que la arquitectura tiene el poder de
+            transformar la vida cotidiana de las personas. Nuestra visión es
+            proyectar espacios que trasciendan lo estético y se conviertan en
+            soluciones habitables, eficientes y emocionalmente significativas.
+            Aspiramos a consolidarnos como un estudio de referencia, no por la
+            magnitud de nuestras obras, sino por la calidad con la que
+            resolvemos cada desafío. Nos mueve el compromiso con el entorno, la
+            innovación técnica, y el diálogo fluido con cada cliente para que el
+            resultado final no solo sea funcional, sino también profundamente
+            humano.
+          </p>
+        </div>
 
-      <h2 class="h2-sub">Mis valores</h2>
-      <ul>
-        <li>
-          <b>Compromiso auténtico:</b> Nos involucramos de principio a fin en
-          cada proyecto, con una presencia constante y una actitud resolutiva.
-          Valoramos la confianza que nuestros clientes depositan en nosotros, y
-          la honramos con responsabilidad y seriedad.
-        </li>
-        <li>
-          <b>Diseño funcional y honesto:</b> Evitamos lo innecesario. Apostamos
-          por una arquitectura clara, donde cada decisión esté justificada y
-          aporte valor real al uso y a la forma.
-        </li>
-        <li>
-          <b>Escucha activa y acompañamiento personalizado:</b> Entendemos que
-          detrás de cada obra hay personas, historias y necesidades únicas.
-          Nuestra tarea comienza escuchando con atención y continúa acompañando
-          con respeto y compromiso.
-        </li>
-        <li>
-          <b>Sustentabilidad consciente:</b> Buscamos integrar criterios de
-          eficiencia energética, elección responsable de materiales y armonía
-          con el entorno en todos nuestros proyectos, independientemente de su
-          escala.
-        </li>
-        <li>
-          <b>Trabajo en equipo:</b> Valoramos el intercambio constante entre
-          profesionales y disciplinas. Creemos que la colaboración nos permite
-          encontrar mejores soluciones y crecer juntos.
-        </li>
-      </ul>
+        <div class="mis-valores">
+          <h2 class="h2-pages-sobremi h2-sub">Mis valores</h2>
+          <ul class="list-misvalores">
+            <li>
+              <b>Compromiso auténtico:</b> Nos involucramos de principio a fin
+              en cada proyecto, con una presencia constante y una actitud
+              resolutiva. Valoramos la confianza que nuestros clientes depositan
+              en nosotros, y la honramos con responsabilidad y seriedad.
+            </li>
+            <li>
+              <b>Diseño funcional y honesto:</b> Evitamos lo innecesario.
+              Apostamos por una arquitectura clara, donde cada decisión esté
+              justificada y aporte valor real al uso y a la forma.
+            </li>
+            <li>
+              <b>Escucha activa y acompañamiento personalizado:</b> Entendemos
+              que detrás de cada obra hay personas, historias y necesidades
+              únicas. Nuestra tarea comienza escuchando con atención y continúa
+              acompañando con respeto y compromiso.
+            </li>
+            <li>
+              <b>Sustentabilidad consciente:</b> Buscamos integrar criterios de
+              eficiencia energética, elección responsable de materiales y
+              armonía con el entorno en todos nuestros proyectos,
+              independientemente de su escala.
+            </li>
+            <li>
+              <b>Trabajo en equipo:</b> Valoramos el intercambio constante entre
+              profesionales y disciplinas. Creemos que la colaboración nos
+              permite encontrar mejores soluciones y crecer juntos.
+            </li>
+          </ul>
+        </div>
+      </div>
 
-      <img
-        src="../images/foto-mia.jpg"
-        alt="Imagen del arquitecto Matias Azar"
-      />
+      <a href="#inicio-pagina" class="buttom-up">
+        <img
+          class="buttom-up"
+          src="../images/boton-arriba.png"
+          alt="Boton para volver a inicio"
+        />
+      </a>
     </main>
 
     <footer>
-      <img src="../images/logo-2.png" alt="Logo MA-Arquitectura" />
-      <p class="text-mayus">Contacto:</p>
-      <ul>
-        <li>
-          <img src="../images/logo-direccion.png" alt="Logo Direccion" />Calle
-          Arturo Marasso 220, Chilecito La Rioja
+      <img
+        class="footer-logo"
+        src="../images/logo-2.png"
+        alt="Logo MA-Arquitectura"
+      />
+      <ul class="footer-ul-container">
+        <li class="footer-contacto text-mayus">Contacto</li>
+        <li class="footer-direccion">
+          <img src="../images/logo-direccion.png" alt="Logo Direccion" />Arturo
+          Marasso 220, Chilecito LR
         </li>
-        <li>
-          <img src="../images/logo-telefono.png" alt="Logo Telefono" />+541 3825
-          404024
+        <li class="footer-telefono">
+          <img src="../images/logo-telefono.png" alt="Logo Telefono" /> +541
+          3825404024
         </li>
-        <li>
-          <img
-            src="../images/logo-correo.png"
-            alt="Logo Email"
-          />matias_azar@hotmail.com
+        <li class="footer-email">
+          <img src="../images/logo-correo.png" alt="Logo Email" />
+          matias_azar@hotmail.com
+        </li>
+        <li class="footer-instagram">
+          <a
+            class="enlace-ig"
+            href="//www.instagram.com/matias.azar/"
+            target="_blank"
+            ><img
+              src="../images/logo-instagram.png"
+              alt="Logo Instagram"
+            />Instagram</a
+          >
         </li>
       </ul>
-      <p class="text-mayus">Redes:</p>
-      <a
-        class="text-mayus ig-sub"
-        href="//www.instagram.com/matias.azar/"
-        target="_blank"
-      >
-        <img
-          src="../images/logo-instagram.png"
-          alt="Logo Instagram"
-        />Instagram</a
-      >
     </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+      integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

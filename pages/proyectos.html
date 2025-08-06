@@ -3,29 +3,79 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="../css/style.css" />
     <title>Sobre mi</title>
   </head>
   <body>
     <header>
-      <img src="../images/logo-1.png" alt="Logo MA-Arquitectura" />
-      <p>Espacios pensados para durar</p>
-      <nav>
-        <ul>
-          <li><a class="menu-header" href="../index.html">Inicio</a></li>
-          <li><a class="menu-header" href="sobre-mi.html">Sobre mi</a></li>
-          <li><a class="menu-header" href="servicios.html">Servicios</a></li>
-          <li><a class="menu-header" href="contactos.html">Contacto</a></li>
-        </ul>
+      <img
+        class="img-header"
+        src="../images/logo-1.png"
+        alt="Logo MA-Arquitectura"
+      />
+      <p class="parrafo-menu"><br />Espacios<br />pensados para<br />durar</p>
+      <nav class="navbar navbar-expand-lg nav-container">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler boton-background"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto ul-nav-container">
+              <li class="nav-item">
+                <a class="nav-link enlaces-header" href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link enlaces-header" href="sobre-mi.html"
+                  >Sobre mi</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link enlaces-header enlace-header-proyectos"
+                  href="proyectos.html"
+                  >Proyectos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link enlaces-header" href="servicios.html"
+                  >Servicios</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link enlaces-header" href="contactos.html"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
 
     <main>
-      <h1 class="line-sub">Proyectos</h1>
-
-      <section class="arquitectura-residencial">
-        <h2 class="h2-sub">Arquitectura residencial - Casa atelier</h2>
-        <p>
+      <h1 id="inicio-pagina" class="h1-pages-proyectos h1-general">
+        Proyectos
+      </h1>
+      <h2 class="h2-sub h2-pages-proyectos">Arquitectura residencial</h2>
+      <section class="arquitectura-residencial-container">
+        <p class="arquitectura-residencial__parrafo">
+          <b>CASA ATELIER</b><br />
           Este conjunto propone dos viviendas adosadas diseñadas para un pintor
           y un escultor, con usos diferenciados y una galería común hacia la
           calle que funciona como espacio de exposición y vínculo con el
@@ -39,17 +89,22 @@
           materiales y formales, pero responden de manera específica a las
           necesidades espaciales y expresivas de cada disciplina artística.
         </p>
-        <img src="../images/plano-subsuelo.png" alt="Plano Subsuelo" />
-        <img src="../images/plano-planta-baja.png" alt="Plano Planta Baja" />
-        <img src="../images/plano-planta-alta.png" alt="Plano Planta Alta" />
-        <img src="../images/casa-atelier.jpg" alt="Casa Atelier" />
+        <img
+          class="arquitectura-residencial__imgcasa1"
+          src="../images/casa-atelier-1.jpg"
+          alt="Casa Atelier"
+        />
+        <img
+          class="arquitectura-residencial__imgcasa2"
+          src="../images/casa-atelier-2.jpg"
+          alt="Casa Atelier"
+        />
       </section>
 
-      <section class="arquitectura-urbana">
-        <h2 class="h2-sub">
-          Arquitectura urbana - Parque de la memoria ferroviaria
-        </h2>
-        <p>
+      <h2 class="h2-sub h2-pages-proyectos">Arquitectura urbana</h2>
+      <section class="arquitectura-urbana-container">
+        <p class="arquitectura-urbana__parrafo">
+          <b>PARQUE DE LA MEMORIA FERROVIARIA</b><br />
           Este proyecto urbano propone la transformación del antiguo predio del
           ferrocarril en la provincia de La Rioja Argentina en un nuevo espacio
           público, combinando la preservación patrimonial con usos culturales y
@@ -64,16 +119,16 @@
           promoviendo el vínculo entre identidad, memoria y vida urbana.
         </p>
         <img
+          class="arquitectura-urbana__imgparque"
           src="../images/parque-ferroviario.jpg"
           alt="Parque de la Memoria Ferroviaria"
         />
       </section>
 
-      <section id="arquitectura-sustentable">
-        <h2 class="h2-sub">
-          Arquitectura Sustentable - Polo Deportivo y Ambiental “Cuenca Seca”
-        </h2>
-        <p>
+      <h2 class="h2-sub h2-pages-proyectos">Arquitectura Sustentable</h2>
+      <section class="arquitectura-sustentable-container">
+        <p class="arquitectura-sustentable__parrafo">
+          <b>POLO DEPORTIVO CUENCA SECA</b><br />
           Este proyecto plantea la creación del Polo Deportivo y Ambiental “El
           Sendero”, un parque sustentable que combina infraestructura deportiva
           con integración paisajística y compromiso ambiental. El conjunto
@@ -89,46 +144,69 @@
           inclusivo y de bajo impacto.
         </p>
         <img
+          class="arquitectura-sustentable__imgplanimetria"
           src="../images/parque-deportivo-planimetria.jpg"
           alt="Planimetria Explicativa Polo Deportivo"
         />
         <img
+          class="arquitectura-sustentable__imgparque"
           src="../images/parque-deportivo.jpg"
           alt="Polo Deportivo y Ambiental “Cuenca Seca”"
         />
       </section>
+
+      <a href="#inicio-pagina">
+        <img
+          class="buttom"
+          src="../images/boton-arriba.png"
+          alt="Boton para volver a inicio"
+        />
+      </a>
     </main>
 
     <footer>
-      <img src="../images/logo-2.png" alt="Logo MA-Arquitectura" />
-      <p class="text-mayus">Contacto:</p>
-      <ul>
-        <li>
-          <img src="../images/logo-direccion.png" alt="Logo Direccion" />Calle
-          Arturo Marasso 220, Chilecito La Rioja
+      <img
+        class="footer-logo"
+        src="../images/logo-2.png"
+        alt="Logo MA-Arquitectura"
+      />
+      <ul class="footer-ul-container">
+        <li class="footer-contacto text-mayus">Contacto</li>
+        <li class="footer-direccion">
+          <img src="../images/logo-direccion.png" alt="Logo Direccion" />Arturo
+          Marasso 220, Chilecito LR
         </li>
-        <li>
-          <img src="../images/logo-telefono.png" alt="Logo Telefono" />+541 3825
-          404024
+        <li class="footer-telefono">
+          <img src="../images/logo-telefono.png" alt="Logo Telefono" /> +541
+          3825404024
         </li>
-        <li>
-          <img
-            src="../images/logo-correo.png"
-            alt="Logo Email"
-          />matias_azar@hotmail.com
+        <li class="footer-email">
+          <img src="../images/logo-correo.png" alt="Logo Email" />
+          matias_azar@hotmail.com
+        </li>
+        <li class="footer-instagram">
+          <a
+            class="enlace-ig"
+            href="//www.instagram.com/matias.azar/"
+            target="_blank"
+            ><img
+              src="../images/logo-instagram.png"
+              alt="Logo Instagram"
+            />Instagram</a
+          >
         </li>
       </ul>
-      <p class="text-mayus">Redes:</p>
-      <a
-        class="text-mayus ig-sub"
-        href="//www.instagram.com/matias.azar/"
-        target="_blank"
-      >
-        <img
-          src="../images/logo-instagram.png"
-          alt="Logo Instagram"
-        />Instagram</a
-      >
     </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+      integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

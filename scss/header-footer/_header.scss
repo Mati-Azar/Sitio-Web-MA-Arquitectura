@@ -1,0 +1,387 @@
+/*-------------------------------------------------------Header - Encabezado -----------------------------------------------------*/
+
+/*--Header------Pantallas EXTRA PEQUEÑAS (TELEFONOS EN VERTICAL <576 px------*/
+
+@media (max-width: 575.98px) {
+  header {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .img-header {
+    width: 8%;
+    min-width: 120px;
+    height: auto;
+    margin: 20px 15px 20px 20px;
+  }
+
+  .parrafo-menu {
+    display: none;
+  }
+
+  .nav-container {
+    margin: auto;
+    background-color: black;
+    width: 30%;
+  }
+
+  .boton-background {
+    background-color: white;
+    margin: auto;
+  }
+
+  .enlaces-header {
+    color: white;
+    text-transform: uppercase;
+    font-size: 17px;
+  }
+
+  .enlace-header-inicio {
+    color: chocolate;
+  }
+  .enlace-header-sobremi {
+    color: chocolate;
+  }
+  .enlace-header-servicios {
+    color: chocolate;
+  }
+  .enlace-header-proyectos {
+    color: chocolate;
+  }
+  .enlace-header-contacto {
+    color: chocolate;
+  }
+
+  .enlaces-header:hover {
+    color: chocolate;
+  }
+}
+
+/*--Header------Pantallas PEQUEÑAS (TELEFONOS GRANDES ≥577 px-----*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  header {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .img-header {
+    width: 8%;
+    min-width: 120px;
+    height: auto;
+    margin: 20px 15px 20px 20px;
+  }
+
+  .parrafo-menu {
+    margin: 5px 30px 30px 0;
+    font-size: 16px;
+  }
+
+  .nav-container {
+    margin: auto;
+    background-color: black;
+    width: 40%;
+  }
+
+  .boton-background {
+    background-color: white;
+    margin: auto;
+  }
+
+  .enlaces-header {
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+
+  .enlace-header-inicio {
+    color: chocolate;
+  }
+  .enlace-header-sobremi {
+    color: chocolate;
+  }
+  .enlace-header-servicios {
+    color: chocolate;
+  }
+  .enlace-header-proyectos {
+    color: chocolate;
+  }
+  .enlace-header-contacto {
+    color: chocolate;
+  }
+
+  .enlaces-header:hover {
+    color: chocolate;
+  }
+}
+
+/*--Header----Pantallas MEDIANAS (TABLETS ≥768 px------*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  header {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .img-header {
+    width: 14%;
+    min-width: 120px;
+    height: auto;
+    margin: 20px 15px 20px 30px;
+  }
+
+  .parrafo-menu {
+    margin: 2px 10px 20px 0;
+    font-size: 18px;
+  }
+
+  .nav-container {
+    margin: auto;
+    background-color: black;
+    width: 40%;
+  }
+
+  .boton-background {
+    background-color: white;
+    margin: auto;
+  }
+
+  .enlaces-header {
+    color: white;
+    text-transform: uppercase;
+    font-size: 19px;
+  }
+
+  .enlace-header-inicio {
+    color: chocolate;
+  }
+  .enlace-header-sobremi {
+    color: chocolate;
+  }
+  .enlace-header-servicios {
+    color: chocolate;
+  }
+  .enlace-header-proyectos {
+    color: chocolate;
+  }
+  .enlace-header-contacto {
+    color: chocolate;
+  }
+
+  .enlaces-header:hover {
+    color: chocolate;
+  }
+}
+
+/*--Header----Pantallas GRANDES (DESKTOPS ≥992 px------*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  header {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .img-header {
+    width: 14%;
+    min-width: 120px;
+    height: auto;
+    margin: 20px 15px 20px 30px;
+  }
+
+  .parrafo-menu {
+    margin: 2px 10px 20px 0;
+  }
+
+  .nav-container {
+    margin: auto;
+    background-color: black;
+    width: 60%;
+  }
+
+  .ul-nav-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .boton-background {
+    background-color: white;
+  }
+
+  .enlaces-header {
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .enlace-header-inicio {
+    color: chocolate;
+  }
+  .enlace-header-sobremi {
+    color: chocolate;
+  }
+  .enlace-header-servicios {
+    color: chocolate;
+  }
+  .enlace-header-proyectos {
+    color: chocolate;
+  }
+  .enlace-header-contacto {
+    color: chocolate;
+  }
+
+  .enlaces-header:hover {
+    color: chocolate;
+  }
+}
+
+/*--Header---Pantallas EXTRA GRANDES (GRANDES PANTALLAS ≥1200 px-----*/
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  header {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .img-header {
+    width: 14%;
+    max-width: 250px;
+    height: auto;
+    margin: 20px 15px 20px 30px;
+  }
+
+  .parrafo-menu {
+    margin: 2px 10px 20px 0;
+  }
+
+  .nav-container {
+    margin: auto;
+    background-color: black;
+    width: 60%;
+  }
+
+  .ul-nav-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .boton-background {
+    background-color: white;
+  }
+
+  .enlaces-header {
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .enlace-header-inicio {
+    color: chocolate;
+  }
+  .enlace-header-sobremi {
+    color: chocolate;
+  }
+  .enlace-header-servicios {
+    color: chocolate;
+  }
+  .enlace-header-proyectos {
+    color: chocolate;
+  }
+  .enlace-header-contacto {
+    color: chocolate;
+  }
+
+  .enlaces-header:hover {
+    color: chocolate;
+  }
+}
+
+/*--Header-----Pantallas ULTRA GRANDES (MUY ANCHAS ≥1400 px) -------*/
+
+@media (min-width: 1400px) {
+  header {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .img-header {
+    width: 14%;
+    max-width: 250px;
+    height: auto;
+    margin: 20px 15px 20px 30px;
+  }
+
+  .parrafo-menu {
+    margin: 2px 10px 20px 0;
+  }
+
+  .nav-container {
+    margin: auto;
+    background-color: black;
+    width: 60%;
+  }
+
+  .ul-nav-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .boton-background {
+    background-color: white;
+  }
+
+  .enlaces-header {
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .enlace-header-inicio {
+    color: chocolate;
+  }
+  .enlace-header-sobremi {
+    color: chocolate;
+  }
+  .enlace-header-servicios {
+    color: chocolate;
+  }
+  .enlace-header-proyectos {
+    color: chocolate;
+  }
+  .enlace-header-contacto {
+    color: chocolate;
+  }
+
+  .enlaces-header:hover {
+    color: chocolate;
+  }
+}

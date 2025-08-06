@@ -1,0 +1,282 @@
+/*---------------------------------------------Pages Servicios--------------------------------------------------------------*/
+
+/*--Pages Servicios-----Pantallas EXTRA PEQUEÑAS (TELEFONOS EN VERTICAL <576 px-----*/
+
+@media (max-width: 575.98px) {
+  .h1-pages-servicios {
+    font-size: 25px;
+  }
+  .h2-pages-servicios {
+    font-size: 20px;
+  }
+  .h3-pages-servicios {
+    font-size: 17px;
+  }
+
+  .body-pages-servicios {
+    text-align: start;
+    font-size: 16px;
+  }
+
+  .section-container1-pageservicios {
+    border-bottom: 5px solid black;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .servicios-icono-vivenda {
+    width: 25%;
+    height: auto;
+    margin: auto;
+  }
+  .servicios-icono-urbano {
+    width: 28%;
+    height: auto;
+    margin: auto;
+  }
+
+  .section-container2-pageservicios {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .servicios-icono-comercial {
+    width: 22%;
+    height: auto;
+    margin: auto;
+  }
+
+  .buttom-arriba {
+    width: 30px;
+    height: auto;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+/*--Pages Servicios-----Pantallas PEQUEÑAS (TELEFONOS GRANDES ≥577 px------*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .h1-pages-servicios {
+    font-size: 30px;
+  }
+  .h2-pages-servicios {
+    font-size: 25px;
+  }
+  .h3-pages-servicios {
+    font-size: 20px;
+  }
+
+  .body-pages-servicios {
+    text-align: start;
+    font-size: 17px;
+  }
+
+  .section-container1-pageservicios {
+    border-bottom: 5px solid black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .servicios-icono-vivenda {
+    width: 20%;
+    height: auto;
+    margin: auto;
+  }
+  .servicios-icono-urbano {
+    width: 23%;
+    height: auto;
+    margin: auto;
+  }
+
+  .section-container2-pageservicios {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .servicios-icono-comercial {
+    width: 17%;
+    height: auto;
+    margin: auto;
+  }
+
+  .buttom-arriba {
+    width: 30px;
+    height: auto;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+/*--Pages Servicios-----Pantallas MEDIANAS (TABLETS ≥768 px--------*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .section-container1-pageservicios {
+    border-bottom: 5px solid black;
+    font-size: 18px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .servicios-icono-vivenda {
+    width: 20%;
+    height: auto;
+    margin: auto;
+  }
+  .servicios-icono-urbano {
+    width: 23%;
+    height: auto;
+    margin: auto;
+  }
+
+  .section-container2-pageservicios {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .servicios-icono-comercial {
+    width: 17%;
+    height: auto;
+    margin: auto;
+  }
+
+  .buttom-arriba {
+    width: 35px;
+    height: auto;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+/*--Pages Servicios-----Pantallas GRANDES (DESKTOPS ≥992 px------*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .section-container1-pageservicios {
+    border-bottom: 5px solid black;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .servicios-icono-vivenda {
+    width: 20%;
+    height: auto;
+    margin: auto;
+  }
+  .servicios-icono-urbano {
+    width: 23%;
+    height: auto;
+    margin: auto;
+  }
+
+  .section-container2-pageservicios {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .servicios-icono-comercial {
+    width: 17%;
+    height: auto;
+    margin: auto;
+  }
+
+  .buttom-arriba {
+    width: 35px;
+    height: auto;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+/*--Pages Servicios-----Pantallas EXTRA GRANDES (GRANDES PANTALLAS ≥1200 px-------*/
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .section-container1-pageservicios {
+    border-bottom: 5px solid black;
+    padding: 30px;
+    display: flex;
+  }
+
+  .servicios-icono-vivenda {
+    width: 15%;
+    max-width: 300px;
+    height: auto;
+    margin: auto;
+  }
+  .servicios-icono-urbano {
+    width: 18%;
+    max-width: 300px;
+    height: auto;
+    margin: auto;
+  }
+
+  .section-container2-pageservicios {
+    padding: 30px;
+    display: flex;
+  }
+
+  .servicios-icono-comercial {
+    width: 12%;
+    max-width: 300px;
+    height: auto;
+    margin: auto;
+  }
+
+  .buttom-arriba {
+    width: 35px;
+    height: auto;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+/*--Pages Servicios-----Pantallas ULTRA GRANDES (MUY ANCHAS ≥1400 px) -----------*/
+
+@media (min-width: 1400px) {
+  .section-container1-pageservicios {
+    border-bottom: 5px solid black;
+    padding: 30px;
+    display: flex;
+  }
+
+  .servicios-icono-vivenda {
+    width: 15%;
+    max-width: 300px;
+    height: auto;
+    margin: auto;
+  }
+  .servicios-icono-urbano {
+    width: 18%;
+    max-width: 300px;
+    height: auto;
+    margin: auto;
+  }
+
+  .section-container2-pageservicios {
+    padding: 30px;
+    display: flex;
+  }
+
+  .servicios-icono-comercial {
+    width: 12%;
+    max-width: 300px;
+    height: auto;
+    margin: auto;
+  }
+
+  .buttom-arriba {
+    display: none;
+  }
+}

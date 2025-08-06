@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*------------------------------------------------------Body General---------------------------------------------------- */
+
+body {
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.body-gray {
+  background-color: rgb(210, 211, 213);
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.h1-general {
+  margin: 20px;
+  border-bottom: 7px solid black;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-family: bold;
+}
+
+.h2-sub {
+  text-decoration: underline;
+}
+
+h3 {
+  text-transform: uppercase;
+}

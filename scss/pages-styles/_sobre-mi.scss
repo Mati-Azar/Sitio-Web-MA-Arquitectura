@@ -1,0 +1,271 @@
+/*-------------------------------------------------------Pages Sobre Mi----------------------------------------------------------*/
+
+.list-misvalores {
+  list-style-type: none;
+}
+
+/*--Pages Sobre Mi-----Pantallas EXTRA PEQUEÑAS (TELEFONOS EN VERTICAL <576 px-----*/
+
+@media (max-width: 575.98px) {
+  .h1-pages-sobremi {
+    font-size: 24px;
+  }
+  .h2-pages-sobremi {
+    font-size: 20px;
+  }
+
+  .div-container-sobremi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 16px;
+    margin: 10px;
+  }
+
+  .mi-foto {
+    padding: 10px;
+    width: 70%;
+    min-width: 150px;
+    height: auto;
+    margin: auto;
+  }
+
+  .mi-historia {
+    padding: 10px;
+  }
+
+  .mi-vision {
+    padding: 10px;
+  }
+
+  .mis-valores {
+    padding: 10px;
+  }
+
+  .buttom-up {
+    width: 30px;
+    height: auto;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+/*--Pages Sobre Mi-----Pantallas PEQUEÑAS (TELEFONOS GRANDES ≥577 px----*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .h1-pages-sobremi {
+    font-size: 30px;
+  }
+  .h2-pages-sobremi {
+    font-size: 25px;
+  }
+
+  .div-container-sobremi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 16px;
+    margin: 15px;
+  }
+
+  .mi-foto {
+    padding: 15px;
+    width: 70%;
+    max-width: 450px;
+    height: auto;
+    margin: auto;
+  }
+
+  .mi-historia {
+    padding: 15px;
+  }
+
+  .mi-vision {
+    padding: 15px;
+  }
+
+  .mis-valores {
+    padding: 15px;
+  }
+
+  .buttom-up {
+    width: 30px;
+    height: auto;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+/*--Pages Sobre Mi-----Pantallas MEDIANAS (TABLETS ≥768 px-----*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .div-container-sobremi {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto auto auto;
+    grid-template-areas:
+      "mi-historia mifoto"
+      "mi-vision mi-vision"
+      "mis-valores mis-valores";
+    place-items: center;
+    font-size: 18px;
+    margin: 30px;
+  }
+
+  .mi-foto {
+    grid-area: mifoto;
+    padding: 15px;
+    width: 80%;
+    height: auto;
+    margin: auto;
+  }
+
+  .mi-historia {
+    grid-area: mi-historia;
+    padding: 0 15px 15px 15px;
+  }
+
+  .mi-vision {
+    grid-area: mi-vision;
+    padding: 15px;
+  }
+
+  .mis-valores {
+    grid-area: mis-valores;
+    padding: 15px;
+  }
+
+  .buttom-up {
+    width: 30px;
+    height: auto;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+/*--Pages Sobre Mi-----Pantallas GRANDES (DESKTOPS ≥992 px----*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .div-container-sobremi {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto auto auto;
+    grid-template-areas:
+      "mi-historia mi-historia"
+      "mi-vision mifoto"
+      "mis-valores mis-valores";
+    place-items: center;
+    margin: 10px 30px 30px 30px;
+  }
+
+  .mi-historia {
+    grid-area: mi-historia;
+    padding: 20px;
+  }
+  .mi-vision {
+    grid-area: mi-vision;
+    padding: 20px;
+  }
+  .mis-valores {
+    grid-area: mis-valores;
+    padding: 20px;
+  }
+  .mi-foto {
+    grid-area: mifoto;
+    padding: 20px;
+    margin: auto;
+    width: 70%;
+    min-width: 450px;
+    height: auto;
+  }
+
+  .buttom-up {
+    display: none;
+  }
+}
+
+/*--Pages Sobre Mi-----Pantallas EXTRA GRANDES (GRANDES PANTALLAS ≥1200 px---*/
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .div-container-sobremi {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto auto auto;
+    grid-template-areas:
+      "mi-historia mifoto"
+      "mi-vision mifoto"
+      "mis-valores mis-valores";
+    place-items: center;
+    margin: 30px 30px 30px 50px;
+  }
+
+  .mi-historia {
+    grid-area: mi-historia;
+    padding: 0 20px 20px 20px;
+  }
+  .mi-vision {
+    grid-area: mi-vision;
+    padding: 20px;
+  }
+  .mis-valores {
+    grid-area: mis-valores;
+    padding: 20px;
+  }
+  .mi-foto {
+    grid-area: mifoto;
+    padding: 20px;
+    margin: auto;
+    width: 100%;
+    min-width: 550px;
+    height: auto;
+  }
+
+  .buttom-up {
+    display: none;
+  }
+}
+
+/*--Pages Sobre Mi-----Pantallas ULTRA GRANDES (MUY ANCHAS ≥1400 px) ----*/
+
+@media (min-width: 1400px) {
+  .div-container-sobremi {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto auto auto;
+    grid-template-areas:
+      "mi-historia mifoto"
+      "mi-vision mifoto"
+      "mis-valores mifoto";
+    place-items: center;
+    margin: 30px 30px 30px 50px;
+    font-size: 22px;
+  }
+
+  .mi-historia {
+    grid-area: mi-historia;
+    padding: 20px 20px 0 20px;
+  }
+  .mi-vision {
+    grid-area: mi-vision;
+    padding: 20px 20px 0 20px;
+  }
+  .mis-valores {
+    grid-area: mis-valores;
+    padding: 20px;
+  }
+  .mi-foto {
+    grid-area: mifoto;
+    padding: 20px;
+    margin: auto;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+  }
+
+  .buttom-up {
+    display: none;
+  }
+}
