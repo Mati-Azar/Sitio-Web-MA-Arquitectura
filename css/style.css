@@ -1,0 +1,77 @@
+header {
+  background-color: black;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.menu-header {
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+body {
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 25px;
+}
+
+.body-gray {
+  background-color: rgb(210, 211, 213);
+}
+
+.arquitectura-residencial {
+  background-color: rgb(230, 231, 232);
+}
+
+.arquitectura-urbana {
+  background-color: rgb(169, 171, 174);
+}
+
+#arquitectura-sustentable {
+  background-color: rgb(136, 159, 172);
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+.line-sub {
+  border-bottom: 7px solid black;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+.h2-sub {
+  text-decoration: underline;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+footer {
+  background-color: white;
+  border-top: 7px solid black;
+  border-bottom: 7px solid black;
+}
+
+.text-mayus {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.ig-sub {
+  text-decoration: none;
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */
