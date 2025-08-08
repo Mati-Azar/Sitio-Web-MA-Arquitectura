@@ -1,5 +1,27 @@
-
 /*---------------------------------------------Pages Servicios--------------------------------------------------------------*/
+
+@mixin animation-image {
+  transform-style: preserve-3d;
+  animation: rotate 6s infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(7deg);
+  }
+  25% {
+    transform: rotate(-7deg);
+  }
+  50% {
+    transform: rotate(7deg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(7deg);
+  }
+}
 
 /*--Pages Servicios-----Pantallas EXTRA PEQUEÑAS (TELEFONOS EN VERTICAL <576 px-----*/
 
@@ -30,11 +52,14 @@
     width: 25%;
     height: auto;
     margin: auto;
+    @include animation-image;
   }
+
   .servicios-icono-urbano {
     width: 28%;
     height: auto;
     margin: auto;
+    @include animation-image;
   }
 
   .section-container2-pageservicios {
@@ -47,6 +72,7 @@
     width: 22%;
     height: auto;
     margin: auto;
+    @include animation-image;
   }
 
   .buttom-arriba {
@@ -87,11 +113,13 @@
     width: 20%;
     height: auto;
     margin: auto;
+    @include animation-image;
   }
   .servicios-icono-urbano {
     width: 23%;
     height: auto;
     margin: auto;
+    @include animation-image;
   }
 
   .section-container2-pageservicios {
@@ -104,6 +132,7 @@
     width: 17%;
     height: auto;
     margin: auto;
+    @include animation-image;
   }
 
   .buttom-arriba {
@@ -130,11 +159,13 @@
     width: 20%;
     height: auto;
     margin: auto;
+    @include animation-image;
   }
   .servicios-icono-urbano {
     width: 23%;
     height: auto;
     margin: auto;
+    @include animation-image;
   }
 
   .section-container2-pageservicios {
@@ -147,6 +178,7 @@
     width: 17%;
     height: auto;
     margin: auto;
+    @include animation-image;
   }
 
   .buttom-arriba {
@@ -172,11 +204,13 @@
     width: 20%;
     height: auto;
     margin: auto;
+    @include animation-image;
   }
   .servicios-icono-urbano {
     width: 23%;
     height: auto;
     margin: auto;
+    @include animation-image;
   }
 
   .section-container2-pageservicios {
@@ -189,6 +223,7 @@
     width: 17%;
     height: auto;
     margin: auto;
+    @include animation-image;
   }
 
   .buttom-arriba {
@@ -214,12 +249,14 @@
     max-width: 300px;
     height: auto;
     margin: auto;
+    @include animation-image;
   }
   .servicios-icono-urbano {
     width: 18%;
     max-width: 300px;
     height: auto;
     margin: auto;
+    @include animation-image;
   }
 
   .section-container2-pageservicios {
@@ -232,6 +269,7 @@
     max-width: 300px;
     height: auto;
     margin: auto;
+    @include animation-image;
   }
 
   .buttom-arriba {
@@ -257,12 +295,15 @@
     max-width: 300px;
     height: auto;
     margin: auto;
+    @include animation-image;
   }
+
   .servicios-icono-urbano {
     width: 18%;
     max-width: 300px;
     height: auto;
     margin: auto;
+    @include animation-image;
   }
 
   .section-container2-pageservicios {
@@ -275,6 +316,7 @@
     max-width: 300px;
     height: auto;
     margin: auto;
+    @include animation-image;
   }
 
   .buttom-arriba {

@@ -1030,6 +1030,23 @@ body h1, body h3, body h2 {
   }
 }
 /*---------------------------------------------Pages Servicios--------------------------------------------------------------*/
+@keyframes rotate {
+  0% {
+    transform: rotate(7deg);
+  }
+  25% {
+    transform: rotate(-7deg);
+  }
+  50% {
+    transform: rotate(7deg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(7deg);
+  }
+}
 /*--Pages Servicios-----Pantallas EXTRA PEQUEÑAS (TELEFONOS EN VERTICAL <576 px-----*/
 @media (max-width: 575.98px) {
   .h1-pages-servicios {
@@ -1055,11 +1072,15 @@ body h1, body h3, body h2 {
     width: 25%;
     height: auto;
     margin: auto;
+    transform-style: preserve-3d;
+    animation: rotate 6s infinite;
   }
   .servicios-icono-urbano {
     width: 28%;
     height: auto;
     margin: auto;
+    transform-style: preserve-3d;
+    animation: rotate 6s infinite;
   }
   .section-container2-pageservicios {
     padding: 30px;
@@ -1070,6 +1091,8 @@ body h1, body h3, body h2 {
     width: 22%;
     height: auto;
     margin: auto;
+    transform-style: preserve-3d;
+    animation: rotate 6s infinite;
   }
   .buttom-arriba {
     width: 30px;
@@ -1104,11 +1127,15 @@ body h1, body h3, body h2 {
     width: 20%;
     height: auto;
     margin: auto;
+    transform-style: preserve-3d;
+    animation: rotate 6s infinite;
   }
   .servicios-icono-urbano {
     width: 23%;
     height: auto;
     margin: auto;
+    transform-style: preserve-3d;
+    animation: rotate 6s infinite;
   }
   .section-container2-pageservicios {
     padding: 30px;
@@ -1119,6 +1146,8 @@ body h1, body h3, body h2 {
     width: 17%;
     height: auto;
     margin: auto;
+    transform-style: preserve-3d;
+    animation: rotate 6s infinite;
   }
   .buttom-arriba {
     width: 30px;
@@ -1141,11 +1170,15 @@ body h1, body h3, body h2 {
     width: 20%;
     height: auto;
     margin: auto;
+    transform-style: preserve-3d;
+    animation: rotate 6s infinite;
   }
   .servicios-icono-urbano {
     width: 23%;
     height: auto;
     margin: auto;
+    transform-style: preserve-3d;
+    animation: rotate 6s infinite;
   }
   .section-container2-pageservicios {
     padding: 30px;
@@ -1156,6 +1189,8 @@ body h1, body h3, body h2 {
     width: 17%;
     height: auto;
     margin: auto;
+    transform-style: preserve-3d;
+    animation: rotate 6s infinite;
   }
   .buttom-arriba {
     width: 35px;
@@ -1177,11 +1212,15 @@ body h1, body h3, body h2 {
     width: 20%;
     height: auto;
     margin: auto;
+    transform-style: preserve-3d;
+    animation: rotate 6s infinite;
   }
   .servicios-icono-urbano {
     width: 23%;
     height: auto;
     margin: auto;
+    transform-style: preserve-3d;
+    animation: rotate 6s infinite;
   }
   .section-container2-pageservicios {
     padding: 30px;
@@ -1192,6 +1231,8 @@ body h1, body h3, body h2 {
     width: 17%;
     height: auto;
     margin: auto;
+    transform-style: preserve-3d;
+    animation: rotate 6s infinite;
   }
   .buttom-arriba {
     width: 35px;
@@ -1213,12 +1254,16 @@ body h1, body h3, body h2 {
     max-width: 300px;
     height: auto;
     margin: auto;
+    transform-style: preserve-3d;
+    animation: rotate 6s infinite;
   }
   .servicios-icono-urbano {
     width: 18%;
     max-width: 300px;
     height: auto;
     margin: auto;
+    transform-style: preserve-3d;
+    animation: rotate 6s infinite;
   }
   .section-container2-pageservicios {
     padding: 30px;
@@ -1229,6 +1274,8 @@ body h1, body h3, body h2 {
     max-width: 300px;
     height: auto;
     margin: auto;
+    transform-style: preserve-3d;
+    animation: rotate 6s infinite;
   }
   .buttom-arriba {
     width: 35px;
@@ -1250,12 +1297,16 @@ body h1, body h3, body h2 {
     max-width: 300px;
     height: auto;
     margin: auto;
+    transform-style: preserve-3d;
+    animation: rotate 6s infinite;
   }
   .servicios-icono-urbano {
     width: 18%;
     max-width: 300px;
     height: auto;
     margin: auto;
+    transform-style: preserve-3d;
+    animation: rotate 6s infinite;
   }
   .section-container2-pageservicios {
     padding: 30px;
@@ -1266,6 +1317,8 @@ body h1, body h3, body h2 {
     max-width: 300px;
     height: auto;
     margin: auto;
+    transform-style: preserve-3d;
+    animation: rotate 6s infinite;
   }
   .buttom-arriba {
     display: none;
