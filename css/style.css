@@ -360,12 +360,26 @@ body h1, body h3, body h2 {
     width: 90%;
     height: auto;
     border: 2px solid black;
+    box-sizing: border-box;
+    transition: all 1s linear;
+  }
+  .arquitectura-residencial__imgcasa1:active {
+    border: 4px solid black;
+    border-radius: 20px;
+    width: 85%;
   }
   .arquitectura-residencial__imgcasa2 {
     width: 90%;
     height: auto;
     margin-top: 15px;
     border: 2px solid black;
+    box-sizing: border-box;
+    transition: all 1s linear;
+  }
+  .arquitectura-residencial__imgcasa2:active {
+    border: 4px solid black;
+    border-radius: 20px;
+    width: 85%;
   }
   .arquitectura-urbana-container {
     display: flex;
@@ -380,6 +394,13 @@ body h1, body h3, body h2 {
     width: 95%;
     height: 40%;
     border: 2px solid black;
+    box-sizing: border-box;
+    transition: all 1s linear;
+  }
+  .arquitectura-urbana__imgparque:active {
+    border: 4px solid black;
+    border-radius: 20px;
+    width: 90%;
   }
   .arquitectura-sustentable-container {
     display: flex;
@@ -394,12 +415,26 @@ body h1, body h3, body h2 {
     width: 90%;
     height: auto;
     border: 2px solid black;
+    box-sizing: border-box;
+    transition: all 1s linear;
+  }
+  .arquitectura-sustentable__imgplanimetria:active {
+    border: 4px solid black;
+    border-radius: 20px;
+    width: 85%;
   }
   .arquitectura-sustentable__imgparque {
     width: 90%;
     height: auto;
     margin-top: 15px;
     border: 2px solid black;
+    box-sizing: border-box;
+    transition: all 1s linear;
+  }
+  .arquitectura-sustentable__imgparque:active {
+    border: 4px solid black;
+    border-radius: 20px;
+    width: 85%;
   }
   .buttom {
     width: 30px;
@@ -430,12 +465,26 @@ body h1, body h3, body h2 {
     width: 90%;
     height: auto;
     border: 2px solid black;
+    box-sizing: border-box;
+    transition: all 1s linear;
+  }
+  .arquitectura-residencial__imgcasa1:active {
+    border: 4px solid black;
+    border-radius: 20px;
+    width: 85%;
   }
   .arquitectura-residencial__imgcasa2 {
     width: 90%;
     height: auto;
     margin-top: 20px;
     border: 2px solid black;
+    box-sizing: border-box;
+    transition: all 1s linear;
+  }
+  .arquitectura-residencial__imgcasa2:active {
+    border: 4px solid black;
+    border-radius: 20px;
+    width: 85%;
   }
   .arquitectura-urbana-container {
     display: flex;
@@ -450,6 +499,13 @@ body h1, body h3, body h2 {
     width: 95%;
     height: 40%;
     border: 2px solid black;
+    box-sizing: border-box;
+    transition: all 1s linear;
+  }
+  .arquitectura-urbana__imgparque:active {
+    border: 4px solid black;
+    border-radius: 20px;
+    width: 90%;
   }
   .arquitectura-sustentable-container {
     display: flex;
@@ -464,12 +520,26 @@ body h1, body h3, body h2 {
     width: 90%;
     height: auto;
     border: 2px solid black;
+    box-sizing: border-box;
+    transition: all 1s linear;
+  }
+  .arquitectura-sustentable__imgplanimetria:active {
+    border: 4px solid black;
+    border-radius: 20px;
+    width: 85%;
   }
   .arquitectura-sustentable__imgparque {
     width: 90%;
     height: auto;
     margin-top: 20px;
     border: 2px solid black;
+    box-sizing: border-box;
+    transition: all 1s linear;
+  }
+  .arquitectura-sustentable__imgparque:active {
+    border: 4px solid black;
+    border-radius: 20px;
+    width: 85%;
   }
   .buttom {
     width: 30px;
@@ -503,6 +573,13 @@ body h1, body h3, body h2 {
     grid-area: imgcasa1;
     margin: auto;
     border: 2px solid black;
+    box-sizing: border-box;
+    transition: all 1s linear;
+  }
+  .arquitectura-residencial__imgcasa1:active {
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 85%;
   }
   .arquitectura-residencial__imgcasa2 {
     width: 90%;
@@ -510,6 +587,13 @@ body h1, body h3, body h2 {
     grid-area: imgcasa2;
     margin: auto;
     border: 2px solid black;
+    box-sizing: border-box;
+    transition: all 1s linear;
+  }
+  .arquitectura-residencial__imgcasa2:active {
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 85%;
   }
   .arquitectura-urbana-container {
     display: flex;
@@ -528,6 +612,13 @@ body h1, body h3, body h2 {
     height: 40%;
     margin-bottom: 30px;
     border: 2px solid black;
+    box-sizing: border-box;
+    transition: all 1s linear;
+  }
+  .arquitectura-urbana__imgparque:active {
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 90%;
   }
   .arquitectura-sustentable-container {
     display: grid;
@@ -550,6 +641,13 @@ body h1, body h3, body h2 {
     height: auto;
     margin: auto;
     border: 2px solid black;
+    box-sizing: border-box;
+    transition: all 1s linear;
+  }
+  .arquitectura-sustentable__imgplanimetria:active {
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 85%;
   }
   .arquitectura-sustentable__imgparque {
     grid-area: imgparque;
@@ -557,6 +655,13 @@ body h1, body h3, body h2 {
     height: auto;
     margin: auto;
     border: 2px solid black;
+    box-sizing: border-box;
+    transition: all 1s linear;
+  }
+  .arquitectura-sustentable__imgparque:active {
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 85%;
   }
   .buttom {
     width: 35px;
@@ -590,6 +695,13 @@ body h1, body h3, body h2 {
     grid-area: imgcasa1;
     margin: auto;
     border: 2px solid black;
+    box-sizing: border-box;
+    transition: all 1s linear;
+  }
+  .arquitectura-residencial__imgcasa1:hover {
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 85%;
   }
   .arquitectura-residencial__imgcasa2 {
     width: 90%;
@@ -597,6 +709,13 @@ body h1, body h3, body h2 {
     grid-area: imgcasa2;
     margin: auto;
     border: 2px solid black;
+    box-sizing: border-box;
+    transition: all 1s linear;
+  }
+  .arquitectura-residencial__imgcasa2:hover {
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 85%;
   }
   .arquitectura-urbana-container {
     display: flex;
@@ -615,6 +734,13 @@ body h1, body h3, body h2 {
     height: 40%;
     margin-bottom: 30px;
     border: 2px solid black;
+    box-sizing: border-box;
+    transition: all 1s linear;
+  }
+  .arquitectura-urbana__imgparque:hover {
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 90%;
   }
   .arquitectura-sustentable-container {
     display: grid;
@@ -637,6 +763,13 @@ body h1, body h3, body h2 {
     height: auto;
     margin: auto;
     border: 2px solid black;
+    box-sizing: border-box;
+    transition: all 1s linear;
+  }
+  .arquitectura-sustentable__imgplanimetria:hover {
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 85%;
   }
   .arquitectura-sustentable__imgparque {
     grid-area: imgparque;
@@ -644,6 +777,13 @@ body h1, body h3, body h2 {
     height: auto;
     margin: auto;
     border: 2px solid black;
+    box-sizing: border-box;
+    transition: all 1s linear;
+  }
+  .arquitectura-sustentable__imgparque:hover {
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 85%;
   }
   .buttom {
     width: 35px;
@@ -677,6 +817,13 @@ body h1, body h3, body h2 {
     grid-area: imgcasa1;
     margin: auto;
     border: 2px solid black;
+    box-sizing: border-box;
+    transition: all 1s linear;
+  }
+  .arquitectura-residencial__imgcasa1:hover {
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 85%;
   }
   .arquitectura-residencial__imgcasa2 {
     width: 90%;
@@ -684,6 +831,13 @@ body h1, body h3, body h2 {
     grid-area: imgcasa2;
     margin: auto;
     border: 2px solid black;
+    box-sizing: border-box;
+    transition: all 1s linear;
+  }
+  .arquitectura-residencial__imgcasa2:hover {
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 85%;
   }
   .arquitectura-urbana-container {
     display: flex;
@@ -702,6 +856,13 @@ body h1, body h3, body h2 {
     height: 40%;
     margin-bottom: 30px;
     border: 2px solid black;
+    box-sizing: border-box;
+    transition: all 1s linear;
+  }
+  .arquitectura-urbana__imgparque:hover {
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 90%;
   }
   .arquitectura-sustentable-container {
     display: grid;
@@ -724,6 +885,13 @@ body h1, body h3, body h2 {
     height: auto;
     margin: auto;
     border: 2px solid black;
+    box-sizing: border-box;
+    transition: all 1s linear;
+  }
+  .arquitectura-sustentable__imgplanimetria:hover {
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 85%;
   }
   .arquitectura-sustentable__imgparque {
     grid-area: imgparque;
@@ -731,6 +899,13 @@ body h1, body h3, body h2 {
     height: auto;
     margin: auto;
     border: 2px solid black;
+    box-sizing: border-box;
+    transition: all 1s linear;
+  }
+  .arquitectura-sustentable__imgparque:hover {
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 85%;
   }
   .buttom {
     display: none;
@@ -760,6 +935,13 @@ body h1, body h3, body h2 {
     grid-area: imgcasa1;
     margin: auto;
     border: 2px solid black;
+    box-sizing: border-box;
+    transition: all 1s linear;
+  }
+  .arquitectura-residencial__imgcasa1:hover {
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 85%;
   }
   .arquitectura-residencial__imgcasa2 {
     width: 90%;
@@ -767,6 +949,13 @@ body h1, body h3, body h2 {
     grid-area: imgcasa2;
     margin: auto;
     border: 2px solid black;
+    box-sizing: border-box;
+    transition: all 1s linear;
+  }
+  .arquitectura-residencial__imgcasa2:hover {
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 85%;
   }
   .arquitectura-urbana-container {
     display: flex;
@@ -785,6 +974,13 @@ body h1, body h3, body h2 {
     height: 40%;
     margin-bottom: 30px;
     border: 2px solid black;
+    box-sizing: border-box;
+    transition: all 1s linear;
+  }
+  .arquitectura-urbana__imgparque:hover {
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 90%;
   }
   .arquitectura-sustentable-container {
     display: grid;
@@ -807,6 +1003,13 @@ body h1, body h3, body h2 {
     height: auto;
     margin: auto;
     border: 2px solid black;
+    box-sizing: border-box;
+    transition: all 1s linear;
+  }
+  .arquitectura-sustentable__imgplanimetria:hover {
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 85%;
   }
   .arquitectura-sustentable__imgparque {
     grid-area: imgparque;
@@ -814,6 +1017,13 @@ body h1, body h3, body h2 {
     height: auto;
     margin: auto;
     border: 2px solid black;
+    box-sizing: border-box;
+    transition: all 1s linear;
+  }
+  .arquitectura-sustentable__imgparque:hover {
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 85%;
   }
   .buttom {
     display: none;

@@ -8,7 +8,7 @@
 
 /*------------------------------------------------Uso de Nesting, Extend y Variable-------------------------------------- */
 
-$fondo-gris:rgb(210, 211, 213);
+$fondo-gris: rgb(210, 211, 213);
 
 body {
   color: black;
@@ -22,13 +22,14 @@ body {
   h2 {
     @extend h1;
   }
+  
   h3 {
     @extend h1;
   }
 }
 
 .body-gray {
-  background-color:$fondo-gris;
+  background-color: $fondo-gris;
 }
 
 .h1-general {
