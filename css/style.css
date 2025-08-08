@@ -2063,6 +2063,18 @@ body h1, body h3, body h2 {
   .footer-instagram {
     grid-area: instagram;
   }
+  .footer-direccion:hover {
+    transform: scale(1.07);
+  }
+  .footer-telefono:hover {
+    transform: scale(1.07);
+  }
+  .footer-email:hover {
+    transform: scale(1.07);
+  }
+  .footer-instagram:hover {
+    transform: scale(1.07);
+  }
   .enlace-ig {
     text-decoration: none;
     color: black;
@@ -2102,6 +2114,18 @@ body h1, body h3, body h2 {
     text-transform: uppercase;
     font-weight: bold;
   }
+  .footer-direccion:hover {
+    transform: scale(1.07);
+  }
+  .footer-telefono:hover {
+    transform: scale(1.07);
+  }
+  .footer-email:hover {
+    transform: scale(1.07);
+  }
+  .footer-instagram:hover {
+    transform: scale(1.07);
+  }
 }
 /*--Footer----Pantallas ULTRA GRANDES (MUY ANCHAS ≥1400 px) ----------*/
 @media (min-width: 1400px) {
@@ -2137,6 +2161,18 @@ body h1, body h3, body h2 {
   .text-mayus {
     text-transform: uppercase;
     font-weight: bold;
+  }
+  .footer-direccion:hover {
+    transform: scale(1.07);
+  }
+  .footer-telefono:hover {
+    transform: scale(1.07);
+  }
+  .footer-email:hover {
+    transform: scale(1.07);
+  }
+  .footer-instagram:hover {
+    transform: scale(1.07);
   }
 }
 

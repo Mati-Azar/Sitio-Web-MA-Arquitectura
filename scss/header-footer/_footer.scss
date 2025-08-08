@@ -1,4 +1,3 @@
-
 /*---------------------------------------------------------------Footer-------------------------------------------------------------- */
 
 /*--Footer-----Pantallas EXTRA PEQUEÑAS (TELEFONOS EN VERTICAL <576 px--------*/
@@ -193,6 +192,22 @@
     grid-area: instagram;
   }
 
+  .footer-direccion:hover {
+    transform: scale(1.07);
+  }
+
+  .footer-telefono:hover {
+    transform: scale(1.07);
+  }
+
+  .footer-email:hover {
+    transform: scale(1.07);
+  }
+
+  .footer-instagram:hover {
+    transform: scale(1.07);
+  }
+
   .enlace-ig {
     text-decoration: none;
     color: black;
@@ -238,6 +253,22 @@
     text-transform: uppercase;
     font-weight: bold;
   }
+
+  .footer-direccion:hover {
+    transform: scale(1.07);
+  }
+
+  .footer-telefono:hover {
+    transform: scale(1.07);
+  }
+
+  .footer-email:hover {
+    transform: scale(1.07);
+  }
+
+  .footer-instagram:hover {
+    transform: scale(1.07);
+  }
 }
 
 /*--Footer----Pantallas ULTRA GRANDES (MUY ANCHAS ≥1400 px) ----------*/
@@ -279,5 +310,21 @@
   .text-mayus {
     text-transform: uppercase;
     font-weight: bold;
+  }
+
+  .footer-direccion:hover {
+    transform: scale(1.07);
+  }
+
+  .footer-telefono:hover {
+    transform: scale(1.07);
+  }
+
+  .footer-email:hover {
+    transform: scale(1.07);
+  }
+
+  .footer-instagram:hover {
+    transform: scale(1.07);
   }
 }
