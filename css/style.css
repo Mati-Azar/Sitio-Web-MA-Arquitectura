@@ -31,56 +31,66 @@ body h1, body h3, body h2 {
 }
 
 /*---------------------------------------------------------Pages Inicio --------------------------------------------------------*/
-.body-pages-index {
-  display: flex;
-  flex-direction: column;
-  height: 100dvh;
-}
-
-.main-index {
-  margin-bottom: auto;
-}
-
 /*--Pages Inicio-----Pantallas EXTRA PEQUEÑAS (TELEFONOS EN VERTICAL <576 px----*/
 @media (max-width: 575.98px) {
   .main-index {
+    height: 100vh;
+    background-image: url(../images/casa-ba.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     font-size: 16px;
     text-align: start;
   }
+  .div-container-index {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+  }
   .pages-inicio-image {
-    width: 100%;
-    height: auto;
+    display: none;
   }
   .h1-pages-inicio {
-    font-size: 24px;
+    color: white;
+    font-size: 25px;
+    text-decoration: underline;
   }
   .h2-pages-inicio {
-    font-size: 20px;
-    margin: 20px;
+    color: white;
+    font-size: 21px;
   }
   .pages-inicio-parrafo {
-    padding: 0 20px 0 20px;
+    display: none;
   }
 }
 /*--Pages Inicio-----Pantallas PEQUEÑAS A MEDIANAS (TELEFONOS GRANDES Y TABLETS ≥768 px------*/
 @media (min-width: 576px) and (max-width: 991.98px) {
   .main-index {
+    height: 100vh;
+    background-image: url(../images/casa-ba.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     font-size: 17px;
     text-align: start;
   }
+  .div-container-index {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+  }
   .pages-inicio-image {
-    width: 100%;
-    height: auto;
+    display: none;
   }
   .h1-pages-inicio {
+    color: white;
     font-size: 30px;
+    text-decoration: underline;
   }
   .h2-pages-inicio {
+    color: white;
     font-size: 25px;
-    margin-left: 20px;
   }
   .pages-inicio-parrafo {
-    padding: 0 20px 0 20px;
+    display: none;
   }
 }
 /*--Pages Inicio-----Pantallas GRANDES A EXTRA GRANDES (GRANDES PANTALLAS ≥992 px a <1200 px---*/
@@ -89,7 +99,12 @@ body h1, body h3, body h2 {
     width: 100%;
     height: auto;
   }
+  .h1-pages-inicio {
+    margin: 20px;
+    border-bottom: 7px solid black;
+  }
   .h2-pages-inicio {
+    text-decoration: underline;
     margin-left: 20px;
   }
   .pages-inicio-parrafo {
@@ -102,7 +117,12 @@ body h1, body h3, body h2 {
     width: 100%;
     height: auto;
   }
+  .h1-pages-inicio {
+    margin: 20px;
+    border-bottom: 7px solid black;
+  }
   .h2-pages-inicio {
+    text-decoration: underline;
     margin-left: 20px;
   }
   .pages-inicio-parrafo {
@@ -135,6 +155,7 @@ body h1, body h3, body h2 {
     min-width: 150px;
     height: auto;
     margin: auto;
+    border-radius: 30px;
   }
   .mi-historia {
     padding: 10px;
@@ -174,6 +195,7 @@ body h1, body h3, body h2 {
     max-width: 450px;
     height: auto;
     margin: auto;
+    border-radius: 30px;
   }
   .mi-historia {
     padding: 15px;
@@ -209,6 +231,7 @@ body h1, body h3, body h2 {
     width: 80%;
     height: auto;
     margin: auto;
+    border-radius: 30px;
   }
   .mi-historia {
     grid-area: mi-historia;
@@ -259,6 +282,7 @@ body h1, body h3, body h2 {
     width: 70%;
     min-width: 450px;
     height: auto;
+    border-radius: 30px;
   }
   .buttom-up {
     display: none;
@@ -293,6 +317,7 @@ body h1, body h3, body h2 {
     width: 100%;
     min-width: 550px;
     height: auto;
+    border-radius: 30px;
   }
   .buttom-up {
     display: none;
@@ -328,6 +353,7 @@ body h1, body h3, body h2 {
     width: 100%;
     max-width: 800px;
     height: auto;
+    border-radius: 30px;
   }
   .buttom-up {
     display: none;
@@ -355,17 +381,20 @@ body h1, body h3, body h2 {
     padding: 15px;
     font-size: 16px;
     background-color: rgb(230, 231, 232);
+    border-radius: 30px;
   }
   .arquitectura-residencial__imgcasa1 {
     width: 90%;
     height: auto;
     border: 2px solid black;
+    border-radius: 20px;
   }
   .arquitectura-residencial__imgcasa2 {
     width: 90%;
     height: auto;
     margin-top: 15px;
     border: 2px solid black;
+    border-radius: 20px;
   }
   .arquitectura-urbana-container {
     display: flex;
@@ -375,11 +404,13 @@ body h1, body h3, body h2 {
     padding: 15px;
     font-size: 16px;
     background-color: rgb(169, 171, 174);
+    border-radius: 30px;
   }
   .arquitectura-urbana__imgparque {
     width: 95%;
     height: 40%;
     border: 2px solid black;
+    border-radius: 20px;
   }
   .arquitectura-sustentable-container {
     display: flex;
@@ -389,17 +420,20 @@ body h1, body h3, body h2 {
     padding: 15px;
     font-size: 16px;
     background-color: rgb(136, 159, 172);
+    border-radius: 30px;
   }
   .arquitectura-sustentable__imgplanimetria {
     width: 90%;
     height: auto;
     border: 2px solid black;
+    border-radius: 20px;
   }
   .arquitectura-sustentable__imgparque {
     width: 90%;
     height: auto;
     margin-top: 15px;
     border: 2px solid black;
+    border-radius: 20px;
   }
   .buttom {
     width: 30px;
@@ -425,17 +459,20 @@ body h1, body h3, body h2 {
     padding: 20px;
     font-size: 17px;
     background-color: rgb(230, 231, 232);
+    border-radius: 30px;
   }
   .arquitectura-residencial__imgcasa1 {
     width: 90%;
     height: auto;
     border: 2px solid black;
+    border-radius: 20px;
   }
   .arquitectura-residencial__imgcasa2 {
     width: 90%;
     height: auto;
     margin-top: 20px;
     border: 2px solid black;
+    border-radius: 20px;
   }
   .arquitectura-urbana-container {
     display: flex;
@@ -445,11 +482,13 @@ body h1, body h3, body h2 {
     padding: 20px;
     font-size: 17px;
     background-color: rgb(169, 171, 174);
+    border-radius: 30px;
   }
   .arquitectura-urbana__imgparque {
     width: 95%;
     height: 40%;
     border: 2px solid black;
+    border-radius: 20px;
   }
   .arquitectura-sustentable-container {
     display: flex;
@@ -459,17 +498,20 @@ body h1, body h3, body h2 {
     padding: 20px;
     font-size: 17px;
     background-color: rgb(136, 159, 172);
+    border-radius: 30px;
   }
   .arquitectura-sustentable__imgplanimetria {
     width: 90%;
     height: auto;
     border: 2px solid black;
+    border-radius: 20px;
   }
   .arquitectura-sustentable__imgparque {
     width: 90%;
     height: auto;
     margin-top: 20px;
     border: 2px solid black;
+    border-radius: 20px;
   }
   .buttom {
     width: 30px;
@@ -491,6 +533,7 @@ body h1, body h3, body h2 {
     padding: 30px;
     font-size: 18px;
     background-color: rgb(230, 231, 232);
+    border-radius: 30px;
   }
   .arquitectura-residencial__parrafo {
     padding-top: 0px;
@@ -503,6 +546,7 @@ body h1, body h3, body h2 {
     grid-area: imgcasa1;
     margin: auto;
     border: 2px solid black;
+    border-radius: 20px;
   }
   .arquitectura-residencial__imgcasa2 {
     width: 90%;
@@ -510,6 +554,7 @@ body h1, body h3, body h2 {
     grid-area: imgcasa2;
     margin: auto;
     border: 2px solid black;
+    border-radius: 20px;
   }
   .arquitectura-urbana-container {
     display: flex;
@@ -519,6 +564,7 @@ body h1, body h3, body h2 {
     padding: 0;
     font-size: 18px;
     background-color: rgb(169, 171, 174);
+    border-radius: 30px;
   }
   .arquitectura-urbana__parrafo {
     padding: 30px 30px 0 30px;
@@ -528,6 +574,7 @@ body h1, body h3, body h2 {
     height: 40%;
     margin-bottom: 30px;
     border: 2px solid black;
+    border-radius: 20px;
   }
   .arquitectura-sustentable-container {
     display: grid;
@@ -539,6 +586,7 @@ body h1, body h3, body h2 {
     padding: 30px;
     font-size: 18px;
     background-color: rgb(136, 159, 172);
+    border-radius: 30px;
     grid-template-areas: "parrafo parrafo" "imgparque imgplano";
   }
   .arquitectura-sustentable__parrafo {
@@ -550,6 +598,7 @@ body h1, body h3, body h2 {
     height: auto;
     margin: auto;
     border: 2px solid black;
+    border-radius: 20px;
   }
   .arquitectura-sustentable__imgparque {
     grid-area: imgparque;
@@ -557,6 +606,7 @@ body h1, body h3, body h2 {
     height: auto;
     margin: auto;
     border: 2px solid black;
+    border-radius: 20px;
   }
   .buttom {
     width: 35px;
@@ -578,6 +628,7 @@ body h1, body h3, body h2 {
     padding: 30px;
     font-size: 20px;
     background-color: rgb(230, 231, 232);
+    border-radius: 30px;
   }
   .arquitectura-residencial__parrafo {
     padding-top: 0px;
@@ -620,6 +671,7 @@ body h1, body h3, body h2 {
     padding: 0;
     font-size: 20px;
     background-color: rgb(169, 171, 174);
+    border-radius: 30px;
   }
   .arquitectura-urbana__parrafo {
     padding: 30px 30px 0 30px;
@@ -647,6 +699,7 @@ body h1, body h3, body h2 {
     padding: 30px;
     font-size: 20px;
     background-color: rgb(136, 159, 172);
+    border-radius: 30px;
     grid-template-areas: "parrafo parrafo" "imgparque imgplano";
   }
   .arquitectura-sustentable__parrafo {
@@ -700,6 +753,7 @@ body h1, body h3, body h2 {
     padding: 30px;
     font-size: 20px;
     background-color: rgb(230, 231, 232);
+    border-radius: 30px;
   }
   .arquitectura-residencial__parrafo {
     padding-top: 0px;
@@ -742,6 +796,7 @@ body h1, body h3, body h2 {
     padding: 0;
     font-size: 20px;
     background-color: rgb(169, 171, 174);
+    border-radius: 30px;
   }
   .arquitectura-urbana__parrafo {
     padding: 30px 30px 0 30px;
@@ -769,6 +824,7 @@ body h1, body h3, body h2 {
     padding: 30px;
     font-size: 20px;
     background-color: rgb(136, 159, 172);
+    border-radius: 30px;
     grid-template-areas: "parrafo parrafo" "imgparque imgplano";
   }
   .arquitectura-sustentable__parrafo {
@@ -818,6 +874,7 @@ body h1, body h3, body h2 {
     padding: 30px;
     font-size: 20px;
     background-color: rgb(230, 231, 232);
+    border-radius: 30px;
   }
   .arquitectura-residencial__parrafo {
     padding-top: 0px;
@@ -860,6 +917,7 @@ body h1, body h3, body h2 {
     padding: 0;
     font-size: 20px;
     background-color: rgb(169, 171, 174);
+    border-radius: 30px;
   }
   .arquitectura-urbana__parrafo {
     padding: 30px 30px 0 30px;
@@ -887,6 +945,7 @@ body h1, body h3, body h2 {
     padding: 30px;
     font-size: 20px;
     background-color: rgb(136, 159, 172);
+    border-radius: 30px;
     grid-template-areas: "parrafo parrafo" "imgparque imgplano";
   }
   .arquitectura-sustentable__parrafo {
