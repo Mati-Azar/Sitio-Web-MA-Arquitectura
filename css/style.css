@@ -1390,7 +1390,7 @@ body h1, body h3, body h2 {
     display: none;
   }
   .nav-container {
-    margin: auto;
+    margin-left: auto;
     background-color: black;
     width: 30%;
   }
@@ -1463,9 +1463,9 @@ body h1, body h3, body h2 {
     font-size: 16px;
   }
   .nav-container {
-    margin: auto;
+    margin-left: auto;
     background-color: black;
-    width: 40%;
+    width: 30%;
   }
   .boton-background {
     background-color: white;
@@ -1536,9 +1536,9 @@ body h1, body h3, body h2 {
     font-size: 18px;
   }
   .nav-container {
-    margin: auto;
+    margin-left: auto;
     background-color: black;
-    width: 40%;
+    width: 30%;
   }
   .boton-background {
     background-color: white;
