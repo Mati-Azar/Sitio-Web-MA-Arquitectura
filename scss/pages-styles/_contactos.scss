@@ -1,14 +1,13 @@
-
 /*------------------------------------------------------------ Pages Contactos--------------------------------------------------------- */
 
 .body-pages-contacto {
   display: flex;
   flex-direction: column;
-  height: 100dvh;
+  min-height: 100dvh;
 }
 
 .main-container-pagescontacto {
-  margin-bottom: auto;
+  flex: 1;
 }
 
 /*--Pages Contactos-----Pantallas EXTRA PEQUEÑAS (TELEFONOS EN VERTICAL <576 px---------*/
@@ -38,8 +37,12 @@
     margin: 10px 30px 0 40px;
   }
 
+  .ul-container-pagescontacto li {
+    margin-bottom: 10px;
+  }
+
   .parrafo-pagescontacto {
-    margin: 30px 30px 0 60px;
+    margin: 20px 30px 10px 60px;
   }
 
   .formulario-container-pagescontacto {
@@ -77,8 +80,12 @@
     margin: 10px 30px 0 50px;
   }
 
+  .ul-container-pagescontacto li {
+    margin-bottom: 10px;
+  }
+
   .parrafo-pagescontacto {
-    margin: 30px 30px 0 60px;
+    margin: 20px 30px 10px 60px;
   }
 
   .formulario-container-pagescontacto {
@@ -106,8 +113,12 @@
     margin: 10px 30px 0 50px;
   }
 
+  .ul-container-pagescontacto li {
+    margin-bottom: 15px;
+  }
+
   .parrafo-pagescontacto {
-    margin: 30px 30px 0 60px;
+    margin: 20px 30px 15px 60px;
   }
 
   .formulario-container-pagescontacto {
@@ -130,8 +141,12 @@
     margin: 10px 0 0 50px;
   }
 
+  .ul-container-pagescontacto li {
+    margin-bottom: 20px;
+  }
+
   .parrafo-pagescontacto {
-    margin: 30px 0 0 60px;
+    margin: 20px 0 20px 60px;
   }
 
   .formulario-container-pagescontacto {
@@ -151,8 +166,12 @@
     margin: 10px 0 0 50px;
   }
 
+  .ul-container-pagescontacto li {
+    margin-bottom: 20px;
+  }
+
   .parrafo-pagescontacto {
-    margin: 30px 0 0 60px;
+    margin: 20px 0 20px 60px;
   }
 
   .formulario-container-pagescontacto {

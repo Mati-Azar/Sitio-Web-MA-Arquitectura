@@ -16,6 +16,26 @@
     width: 35%;
     height: auto;
     margin: auto;
+    transform-style: preserve-3d;
+    animation: scale 6s infinite;
+  }
+
+  @keyframes scale {
+    0% {
+      transform: scale(1);
+    }
+    25% {
+      transform: scale(1.09);
+    }
+    50% {
+      transform: scale(1);
+    }
+    75% {
+      transform: scale(1.09);
+    }
+    100% {
+      transform: scale(1);
+    }
   }
 
   .footer-ul-container {
@@ -54,6 +74,26 @@
     width: 30%;
     height: auto;
     margin-left: 25px;
+    transform-style: preserve-3d;
+    animation: scale 6s infinite;
+  }
+
+  @keyframes scale {
+    0% {
+      transform: scale(1);
+    }
+    25% {
+      transform: scale(1.09);
+    }
+    50% {
+      transform: scale(1);
+    }
+    75% {
+      transform: scale(1.09);
+    }
+    100% {
+      transform: scale(1);
+    }
   }
 
   .footer-ul-container {
@@ -91,6 +131,26 @@
     width: 20%;
     height: auto;
     margin: 12px 12px 12px 25px;
+    transform-style: preserve-3d;
+    animation: scale 6s infinite;
+  }
+
+  @keyframes scale {
+    0% {
+      transform: scale(1);
+    }
+    25% {
+      transform: scale(1.09);
+    }
+    50% {
+      transform: scale(1);
+    }
+    75% {
+      transform: scale(1.09);
+    }
+    100% {
+      transform: scale(1);
+    }
   }
 
   .footer-ul-container {
@@ -137,7 +197,7 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {
   footer {
     background-color: black;
-    color: white;   
+    color: white;
     font-size: 17px;
     display: flex;
     align-items: center;
@@ -148,6 +208,26 @@
     max-width: 180px;
     height: auto;
     margin: 12px 12px 12px 25px;
+    transform-style: preserve-3d;
+    animation: scale 6s infinite;
+  }
+
+  @keyframes scale {
+    0% {
+      transform: scale(1);
+    }
+    25% {
+      transform: scale(1.09);
+    }
+    50% {
+      transform: scale(1);
+    }
+    75% {
+      transform: scale(1.09);
+    }
+    100% {
+      transform: scale(1);
+    }
   }
 
   .footer-ul-container {
@@ -184,22 +264,6 @@
     grid-area: instagram;
   }
 
-  .footer-direccion:hover {
-    transform: scale(1.07);
-  }
-
-  .footer-telefono:hover {
-    transform: scale(1.07);
-  }
-
-  .footer-email:hover {
-    transform: scale(1.07);
-  }
-
-  .footer-instagram:hover {
-    transform: scale(1.07);
-  }
-
   .enlace-ig {
     text-decoration: none;
     color: white;
@@ -211,7 +275,7 @@
 @media (min-width: 1200px) and (max-width: 1399.98px) {
   footer {
     background-color: black;
-    color: white;    
+    color: white;
     font-size: 17px;
     display: flex;
     justify-content: space-between;
@@ -222,6 +286,26 @@
     width: 10%;
     height: auto;
     margin: 15px 15px 15px 25px;
+    transform-style: preserve-3d;
+    animation: scale 6s infinite;
+  }
+
+  @keyframes scale {
+    0% {
+      transform: scale(1);
+    }
+    25% {
+      transform: scale(1.09);
+    }
+    50% {
+      transform: scale(1);
+    }
+    75% {
+      transform: scale(1.09);
+    }
+    100% {
+      transform: scale(1);
+    }
   }
 
   .footer-ul-container {
@@ -243,22 +327,6 @@
     font-weight: bold;
     color: white;
   }
-
-  .footer-direccion:hover {
-    transform: scale(1.07);
-  }
-
-  .footer-telefono:hover {
-    transform: scale(1.07);
-  }
-
-  .footer-email:hover {
-    transform: scale(1.07);
-  }
-
-  .footer-instagram:hover {
-    transform: scale(1.07);
-  }
 }
 
 /*--Footer----Pantallas ULTRA GRANDES (MUY ANCHAS ≥1400 px) ----------*/
@@ -266,7 +334,7 @@
 @media (min-width: 1400px) {
   footer {
     background-color: black;
-    color: white;      
+    color: white;
     font-size: 17px;
     display: flex;
     justify-content: space-between;
@@ -278,6 +346,26 @@
     width: 10%;
     height: auto;
     margin: 20px 20px 20px 30px;
+    transform-style: preserve-3d;
+    animation: scale 6s infinite;
+  }
+
+  @keyframes scale {
+    0% {
+      transform: scale(1);
+    }
+    25% {
+      transform: scale(1.09);
+    }
+    50% {
+      transform: scale(1);
+    }
+    75% {
+      transform: scale(1.09);
+    }
+    100% {
+      transform: scale(1);
+    }
   }
 
   .footer-ul-container {
@@ -298,21 +386,5 @@
     text-transform: uppercase;
     font-weight: bold;
     color: white;
-  }
-
-  .footer-direccion:hover {
-    transform: scale(1.07);
-  }
-
-  .footer-telefono:hover {
-    transform: scale(1.07);
-  }
-
-  .footer-email:hover {
-    transform: scale(1.07);
-  }
-
-  .footer-instagram:hover {
-    transform: scale(1.07);
   }
 }

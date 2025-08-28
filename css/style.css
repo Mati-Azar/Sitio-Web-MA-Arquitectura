@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 /*------------------------------------------------------Body General---------------------------------------------------- */
@@ -1282,11 +1283,11 @@ body h1, body h3, body h2 {
 .body-pages-contacto {
   display: flex;
   flex-direction: column;
-  height: 100dvh;
+  min-height: 100dvh;
 }
 
 .main-container-pagescontacto {
-  margin-bottom: auto;
+  flex: 1;
 }
 
 /*--Pages Contactos-----Pantallas EXTRA PEQUEÑAS (TELEFONOS EN VERTICAL <576 px---------*/
@@ -1311,8 +1312,11 @@ body h1, body h3, body h2 {
   .ul-container-pagescontacto {
     margin: 10px 30px 0 40px;
   }
+  .ul-container-pagescontacto li {
+    margin-bottom: 10px;
+  }
   .parrafo-pagescontacto {
-    margin: 30px 30px 0 60px;
+    margin: 20px 30px 10px 60px;
   }
   .formulario-container-pagescontacto {
     margin: 10px 30px 20px 60px;
@@ -1343,8 +1347,11 @@ body h1, body h3, body h2 {
   .ul-container-pagescontacto {
     margin: 10px 30px 0 50px;
   }
+  .ul-container-pagescontacto li {
+    margin-bottom: 10px;
+  }
   .parrafo-pagescontacto {
-    margin: 30px 30px 0 60px;
+    margin: 20px 30px 10px 60px;
   }
   .formulario-container-pagescontacto {
     margin: 10px 30px 30px 60px;
@@ -1366,8 +1373,11 @@ body h1, body h3, body h2 {
   .ul-container-pagescontacto {
     margin: 10px 30px 0 50px;
   }
+  .ul-container-pagescontacto li {
+    margin-bottom: 15px;
+  }
   .parrafo-pagescontacto {
-    margin: 30px 30px 0 60px;
+    margin: 20px 30px 15px 60px;
   }
   .formulario-container-pagescontacto {
     margin: 10px 30px 30px 60px;
@@ -1385,8 +1395,11 @@ body h1, body h3, body h2 {
   .ul-container-pagescontacto {
     margin: 10px 0 0 50px;
   }
+  .ul-container-pagescontacto li {
+    margin-bottom: 20px;
+  }
   .parrafo-pagescontacto {
-    margin: 30px 0 0 60px;
+    margin: 20px 0 20px 60px;
   }
   .formulario-container-pagescontacto {
     margin: 10px 0 30px 60px;
@@ -1401,8 +1414,11 @@ body h1, body h3, body h2 {
   .ul-container-pagescontacto {
     margin: 10px 0 0 50px;
   }
+  .ul-container-pagescontacto li {
+    margin-bottom: 20px;
+  }
   .parrafo-pagescontacto {
-    margin: 30px 0 0 60px;
+    margin: 20px 0 20px 60px;
   }
   .formulario-container-pagescontacto {
     margin: 10px 0 30px 60px;
@@ -1867,6 +1883,25 @@ body h1, body h3, body h2 {
     width: 35%;
     height: auto;
     margin: auto;
+    transform-style: preserve-3d;
+    animation: scale 6s infinite;
+  }
+  @keyframes scale {
+    0% {
+      transform: scale(1);
+    }
+    25% {
+      transform: scale(1.09);
+    }
+    50% {
+      transform: scale(1);
+    }
+    75% {
+      transform: scale(1.09);
+    }
+    100% {
+      transform: scale(1);
+    }
   }
   .footer-ul-container {
     display: flex;
@@ -1899,6 +1934,25 @@ body h1, body h3, body h2 {
     width: 30%;
     height: auto;
     margin-left: 25px;
+    transform-style: preserve-3d;
+    animation: scale 6s infinite;
+  }
+  @keyframes scale {
+    0% {
+      transform: scale(1);
+    }
+    25% {
+      transform: scale(1.09);
+    }
+    50% {
+      transform: scale(1);
+    }
+    75% {
+      transform: scale(1.09);
+    }
+    100% {
+      transform: scale(1);
+    }
   }
   .footer-ul-container {
     display: flex;
@@ -1930,6 +1984,25 @@ body h1, body h3, body h2 {
     width: 20%;
     height: auto;
     margin: 12px 12px 12px 25px;
+    transform-style: preserve-3d;
+    animation: scale 6s infinite;
+  }
+  @keyframes scale {
+    0% {
+      transform: scale(1);
+    }
+    25% {
+      transform: scale(1.09);
+    }
+    50% {
+      transform: scale(1);
+    }
+    75% {
+      transform: scale(1.09);
+    }
+    100% {
+      transform: scale(1);
+    }
   }
   .footer-ul-container {
     display: grid;
@@ -1978,6 +2051,25 @@ body h1, body h3, body h2 {
     max-width: 180px;
     height: auto;
     margin: 12px 12px 12px 25px;
+    transform-style: preserve-3d;
+    animation: scale 6s infinite;
+  }
+  @keyframes scale {
+    0% {
+      transform: scale(1);
+    }
+    25% {
+      transform: scale(1.09);
+    }
+    50% {
+      transform: scale(1);
+    }
+    75% {
+      transform: scale(1.09);
+    }
+    100% {
+      transform: scale(1);
+    }
   }
   .footer-ul-container {
     width: 80%;
@@ -2009,18 +2101,6 @@ body h1, body h3, body h2 {
   .footer-instagram {
     grid-area: instagram;
   }
-  .footer-direccion:hover {
-    transform: scale(1.07);
-  }
-  .footer-telefono:hover {
-    transform: scale(1.07);
-  }
-  .footer-email:hover {
-    transform: scale(1.07);
-  }
-  .footer-instagram:hover {
-    transform: scale(1.07);
-  }
   .enlace-ig {
     text-decoration: none;
     color: white;
@@ -2040,6 +2120,25 @@ body h1, body h3, body h2 {
     width: 10%;
     height: auto;
     margin: 15px 15px 15px 25px;
+    transform-style: preserve-3d;
+    animation: scale 6s infinite;
+  }
+  @keyframes scale {
+    0% {
+      transform: scale(1);
+    }
+    25% {
+      transform: scale(1.09);
+    }
+    50% {
+      transform: scale(1);
+    }
+    75% {
+      transform: scale(1.09);
+    }
+    100% {
+      transform: scale(1);
+    }
   }
   .footer-ul-container {
     width: 90%;
@@ -2058,18 +2157,6 @@ body h1, body h3, body h2 {
     font-weight: bold;
     color: white;
   }
-  .footer-direccion:hover {
-    transform: scale(1.07);
-  }
-  .footer-telefono:hover {
-    transform: scale(1.07);
-  }
-  .footer-email:hover {
-    transform: scale(1.07);
-  }
-  .footer-instagram:hover {
-    transform: scale(1.07);
-  }
 }
 /*--Footer----Pantallas ULTRA GRANDES (MUY ANCHAS ≥1400 px) ----------*/
 @media (min-width: 1400px) {
@@ -2086,6 +2173,25 @@ body h1, body h3, body h2 {
     width: 10%;
     height: auto;
     margin: 20px 20px 20px 30px;
+    transform-style: preserve-3d;
+    animation: scale 6s infinite;
+  }
+  @keyframes scale {
+    0% {
+      transform: scale(1);
+    }
+    25% {
+      transform: scale(1.09);
+    }
+    50% {
+      transform: scale(1);
+    }
+    75% {
+      transform: scale(1.09);
+    }
+    100% {
+      transform: scale(1);
+    }
   }
   .footer-ul-container {
     width: 80%;
@@ -2103,18 +2209,6 @@ body h1, body h3, body h2 {
     text-transform: uppercase;
     font-weight: bold;
     color: white;
-  }
-  .footer-direccion:hover {
-    transform: scale(1.07);
-  }
-  .footer-telefono:hover {
-    transform: scale(1.07);
-  }
-  .footer-email:hover {
-    transform: scale(1.07);
-  }
-  .footer-instagram:hover {
-    transform: scale(1.07);
   }
 }
 
