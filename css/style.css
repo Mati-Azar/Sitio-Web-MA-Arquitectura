@@ -1347,7 +1347,7 @@ body h1, body h3, body h2 {
     margin: 30px 30px 0 60px;
   }
   .formulario-container-pagescontacto {
-    margin: 10px 30px 0 60px;
+    margin: 10px 30px 30px 60px;
     display: flex;
     flex-direction: column;
     width: 60%;
@@ -1370,7 +1370,7 @@ body h1, body h3, body h2 {
     margin: 30px 30px 0 60px;
   }
   .formulario-container-pagescontacto {
-    margin: 10px 30px 0 60px;
+    margin: 10px 30px 30px 60px;
     display: flex;
     flex-direction: column;
     width: 60%;
@@ -1389,7 +1389,7 @@ body h1, body h3, body h2 {
     margin: 30px 0 0 60px;
   }
   .formulario-container-pagescontacto {
-    margin: 10px 0 0 60px;
+    margin: 10px 0 30px 60px;
   }
 }
 /*--Pages Contactos-----Pantallas ULTRA GRANDES (MUY ANCHAS ≥1400 px) --------*/
@@ -1405,7 +1405,7 @@ body h1, body h3, body h2 {
     margin: 30px 0 0 60px;
   }
   .formulario-container-pagescontacto {
-    margin: 10px 0 0 60px;
+    margin: 10px 0 30px 60px;
   }
 }
 /*-------------------------------------------------------Header - Encabezado -----------------------------------------------------*/
@@ -1856,11 +1856,8 @@ body h1, body h3, body h2 {
 /*--Footer-----Pantallas EXTRA PEQUEÑAS (TELEFONOS EN VERTICAL <576 px--------*/
 @media (max-width: 575.98px) {
   footer {
-    background-color: white;
-    border-top: 6px solid black;
-    border-bottom: 6px solid black;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    background-color: black;
+    color: white;
     padding: 10px 10px 0 10px;
     font-size: 16px;
     display: flex;
@@ -1880,9 +1877,10 @@ body h1, body h3, body h2 {
   }
   .enlace-ig {
     text-decoration: none;
-    color: black;
+    color: white;
   }
   .text-mayus {
+    color: white;
     text-transform: uppercase;
     font-weight: bold;
   }
@@ -1890,11 +1888,8 @@ body h1, body h3, body h2 {
 /*--Footer-----Pantallas PEQUEÑAS (TELEFONOS GRANDES ≥577 px-----------*/
 @media (min-width: 576px) and (max-width: 767.98px) {
   footer {
-    background-color: white;
-    border-top: 6px solid black;
-    border-bottom: 6px solid black;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    background-color: black;
+    color: white;
     padding: 15px;
     font-size: 17px;
     display: flex;
@@ -1914,9 +1909,10 @@ body h1, body h3, body h2 {
   }
   .enlace-ig {
     text-decoration: none;
-    color: black;
+    color: white;
   }
   .text-mayus {
+    color: white;
     text-transform: uppercase;
     font-weight: bold;
   }
@@ -1924,11 +1920,8 @@ body h1, body h3, body h2 {
 /*--Footer-----Pantallas MEDIANAS (TABLETS ≥768 px----------*/
 @media (min-width: 768px) and (max-width: 991.98px) {
   footer {
-    background-color: white;
-    border-top: 6px solid black;
-    border-bottom: 6px solid black;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    background-color: black;
+    color: white;
     font-size: 17px;
     display: flex;
     align-items: center;
@@ -1950,6 +1943,7 @@ body h1, body h3, body h2 {
   }
   .footer-contacto {
     grid-area: contacto;
+    color: white;
     text-transform: uppercase;
     font-weight: bold;
   }
@@ -1967,17 +1961,14 @@ body h1, body h3, body h2 {
   }
   .enlace-ig {
     text-decoration: none;
-    color: black;
+    color: white;
   }
 }
 /*--Footer-----Pantallas GRANDES (DESKTOPS ≥992 px--------*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
   footer {
-    background-color: white;
-    border-top: 6px solid black;
-    border-bottom: 6px solid black;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    background-color: black;
+    color: white;
     font-size: 17px;
     display: flex;
     align-items: center;
@@ -2000,6 +1991,7 @@ body h1, body h3, body h2 {
   }
   .footer-contacto {
     grid-area: contacto;
+    color: white;
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
@@ -2031,26 +2023,23 @@ body h1, body h3, body h2 {
   }
   .enlace-ig {
     text-decoration: none;
-    color: black;
+    color: white;
   }
 }
 /*--Footer-----Pantallas EXTRA GRANDES (GRANDES PANTALLAS ≥1200 px-------*/
 @media (min-width: 1200px) and (max-width: 1399.98px) {
   footer {
-    background-color: white;
-    border-top: 6px solid black;
-    border-bottom: 6px solid black;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    background-color: black;
+    color: white;
     font-size: 17px;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
   .footer-logo {
-    width: 8%;
+    width: 10%;
     height: auto;
-    margin: 12px 12px 12px 25px;
+    margin: 15px 15px 15px 25px;
   }
   .footer-ul-container {
     width: 90%;
@@ -2062,11 +2051,12 @@ body h1, body h3, body h2 {
   }
   .enlace-ig {
     text-decoration: none;
-    color: black;
+    color: white;
   }
   .text-mayus {
     text-transform: uppercase;
     font-weight: bold;
+    color: white;
   }
   .footer-direccion:hover {
     transform: scale(1.07);
@@ -2084,11 +2074,8 @@ body h1, body h3, body h2 {
 /*--Footer----Pantallas ULTRA GRANDES (MUY ANCHAS ≥1400 px) ----------*/
 @media (min-width: 1400px) {
   footer {
-    background-color: white;
-    border-top: 6px solid black;
-    border-bottom: 6px solid black;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    background-color: black;
+    color: white;
     font-size: 17px;
     display: flex;
     justify-content: space-between;
@@ -2096,9 +2083,9 @@ body h1, body h3, body h2 {
     flex-wrap: wrap;
   }
   .footer-logo {
-    width: 8%;
+    width: 10%;
     height: auto;
-    margin: 15px 15px 15px 30px;
+    margin: 20px 20px 20px 30px;
   }
   .footer-ul-container {
     width: 80%;
@@ -2110,11 +2097,12 @@ body h1, body h3, body h2 {
   }
   .enlace-ig {
     text-decoration: none;
-    color: black;
+    color: white;
   }
   .text-mayus {
     text-transform: uppercase;
     font-weight: bold;
+    color: white;
   }
   .footer-direccion:hover {
     transform: scale(1.07);

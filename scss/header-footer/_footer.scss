@@ -4,11 +4,8 @@
 
 @media (max-width: 575.98px) {
   footer {
-    background-color: white;
-    border-top: 6px solid black;
-    border-bottom: 6px solid black;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    background-color: black;
+    color: white;
     padding: 10px 10px 0 10px;
     font-size: 16px;
     display: flex;
@@ -31,10 +28,11 @@
 
   .enlace-ig {
     text-decoration: none;
-    color: black;
+    color: white;
   }
 
   .text-mayus {
+    color: white;
     text-transform: uppercase;
     font-weight: bold;
   }
@@ -44,11 +42,8 @@
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   footer {
-    background-color: white;
-    border-top: 6px solid black;
-    border-bottom: 6px solid black;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    background-color: black;
+    color: white;
     padding: 15px;
     font-size: 17px;
     display: flex;
@@ -71,10 +66,11 @@
 
   .enlace-ig {
     text-decoration: none;
-    color: black;
+    color: white;
   }
 
   .text-mayus {
+    color: white;
     text-transform: uppercase;
     font-weight: bold;
   }
@@ -84,11 +80,8 @@
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   footer {
-    background-color: white;
-    border-top: 6px solid black;
-    border-bottom: 6px solid black;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    background-color: black;
+    color: white;
     font-size: 17px;
     display: flex;
     align-items: center;
@@ -116,6 +109,7 @@
 
   .footer-contacto {
     grid-area: contacto;
+    color: white;
     text-transform: uppercase;
     font-weight: bold;
   }
@@ -134,7 +128,7 @@
 
   .enlace-ig {
     text-decoration: none;
-    color: black;
+    color: white;
   }
 }
 
@@ -142,11 +136,8 @@
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   footer {
-    background-color: white;
-    border-top: 6px solid black;
-    border-bottom: 6px solid black;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    background-color: black;
+    color: white;   
     font-size: 17px;
     display: flex;
     align-items: center;
@@ -174,6 +165,7 @@
 
   .footer-contacto {
     grid-area: contacto;
+    color: white;
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
@@ -210,7 +202,7 @@
 
   .enlace-ig {
     text-decoration: none;
-    color: black;
+    color: white;
   }
 }
 
@@ -218,11 +210,8 @@
 
 @media (min-width: 1200px) and (max-width: 1399.98px) {
   footer {
-    background-color: white;
-    border-top: 6px solid black;
-    border-bottom: 6px solid black;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    background-color: black;
+    color: white;    
     font-size: 17px;
     display: flex;
     justify-content: space-between;
@@ -230,9 +219,9 @@
   }
 
   .footer-logo {
-    width: 8%;
+    width: 10%;
     height: auto;
-    margin: 12px 12px 12px 25px;
+    margin: 15px 15px 15px 25px;
   }
 
   .footer-ul-container {
@@ -246,12 +235,13 @@
 
   .enlace-ig {
     text-decoration: none;
-    color: black;
+    color: white;
   }
 
   .text-mayus {
     text-transform: uppercase;
     font-weight: bold;
+    color: white;
   }
 
   .footer-direccion:hover {
@@ -275,11 +265,8 @@
 
 @media (min-width: 1400px) {
   footer {
-    background-color: white;
-    border-top: 6px solid black;
-    border-bottom: 6px solid black;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    background-color: black;
+    color: white;      
     font-size: 17px;
     display: flex;
     justify-content: space-between;
@@ -288,9 +275,9 @@
   }
 
   .footer-logo {
-    width: 8%;
+    width: 10%;
     height: auto;
-    margin: 15px 15px 15px 30px;
+    margin: 20px 20px 20px 30px;
   }
 
   .footer-ul-container {
@@ -304,12 +291,13 @@
 
   .enlace-ig {
     text-decoration: none;
-    color: black;
+    color: white;
   }
 
   .text-mayus {
     text-transform: uppercase;
     font-weight: bold;
+    color: white;
   }
 
   .footer-direccion:hover {
